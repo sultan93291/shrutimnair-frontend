@@ -25,6 +25,7 @@ const B2bCommonFeature = ({
   CardDetails,
   isHighlight = false,
   Direction = "start",
+  SvgColor,
 }) => {
   const SvgArr = {
     Pricingmeter,
@@ -42,6 +43,9 @@ const B2bCommonFeature = ({
     Box,
     DollarSetting,
   };
+
+  console.log(SvgColor);
+  
   return (
     <div className="w-full px-[56px] h-full ">
       <div
@@ -78,19 +82,26 @@ const B2bCommonFeature = ({
             return (
               <div
                 key={index}
-                className="h-auto max-w-[360px] py-10 px-12 bg-white shadow-[0px_6px_16px_0px_rgba(0,0,0,0.12)]
+                className="h-auto max-w-[360px]  py-10 px-10 bg-white shadow-[0px_6px_16px_0px_rgba(0,0,0,0.12)]
  rounded-[24px] flex flex-col gap-y-[21px]  items-center"
               >
-                <div className="w-[58px] h-[58px] rounded-full bg-[#4A3B2C] border-[0.892px] border-solid border-[rgba(68, 87, 98, 0.50)] flex items-center justify-center  ">
+                <div
+                  style={{
+                    backgroundColor: SvgColor,
+                  }}
+                  className="w-[58px] h-[58px] rounded-full  border-[0.892px] border-solid border-[rgba(68, 87, 98, 0.50)] flex items-center justify-center  "
+                >
                   <SvgIcon data-aos="fade-up" data-aos-delay="100" />
                 </div>
-                <span
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                  className="text-[24px]  font-medium leading-[150%]  text-[#545454] text-center "
-                >
-                  {item.subTitle}
-                </span>
+                <div  className="w-[312px] text-center ">
+                  <span
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    className="text-[24px]  font-medium leading-[150%]  text-[#545454]"
+                  >
+                    {item.subTitle}
+                  </span>
+                </div>
               </div>
             );
           })}

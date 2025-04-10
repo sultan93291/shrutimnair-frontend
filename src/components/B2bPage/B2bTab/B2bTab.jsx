@@ -7,6 +7,7 @@ import {
   SetActiveFeatureData,
 } from "@/redux/features/tabdataSlice";
 import { useDispatch } from "react-redux";
+import { setActivePricingTears } from "@/redux/features/PricingSlice";
 
 const TabDetails = [
   {
@@ -93,6 +94,7 @@ const B2bTab = () => {
                   setActiveTab(item);
                   dispatch(SetAcitveTab(item.tittle));
                   dispatch(SetActiveFeatureData(item.tittle));
+                  dispatch(setActivePricingTears(item.tittle));
                 }}
                 className="mt-12 transition-opacity duration-300 hover:opacity-80" // Optional: Add button hover effect
               >
