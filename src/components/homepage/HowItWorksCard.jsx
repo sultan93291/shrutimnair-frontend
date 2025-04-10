@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const HowItWorksCard = ({ title, steps, icon }) => {
   return (
-    <div className="group transition-all max-h-[460px]   duration-500 border border-[#FFF] rounded-3xl max-w-[472px] pt-10 pb-14 px-12 bg-[#FFF] hover:bg-[#F5F0E4] hover:border-[#B68D40] cursor-pointer h-auto">
+    <div className="group transition-all lg:min-h-[460px] duration-500 border border-[#FFF] rounded-3xl pt-7 3xl:pt-10 pb-9 3xl:pb-14 px-7 3xl:px-12 bg-[#FFF] hover:bg-[#F5F0E4] hover:border-[#B68D40] cursor-pointer h-auto">
       <div className="w-full">
         <motion.div
           initial={{ opacity: 0 }}
@@ -17,7 +17,7 @@ const HowItWorksCard = ({ title, steps, icon }) => {
         >
           <div>
             <button
-    
+
               className="transition-all  bg-[#B68D40] group-hover:bg-[#4E6151] duration-500 ease-in-out p-[13px] rounded-[414.286px] text-white"
             >
               <span className="group-hover:fill-white transition-all duration-500 ease-in-out">
@@ -28,7 +28,7 @@ const HowItWorksCard = ({ title, steps, icon }) => {
               <p
                 data-aos="fade-up"
                 data-aos-delay="100"
-                className="text-[#050404] text-[22px] font-bold leading-[30.8px]"
+                className="text-[#050404] text-xl 2xl:text-[22px] font-bold leading-[30.8px]"
               >
                 {title}
               </p>

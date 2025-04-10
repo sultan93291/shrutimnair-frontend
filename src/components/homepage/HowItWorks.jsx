@@ -63,35 +63,35 @@ const HowItWorks = () => {
     },
   ];
   return (
-    <section className="mx-14 bg-[#F2F2F2] rounded-[80px] shadow-[0px_8px_32px_2px_rgba(0,0,0,0.12)]">
-      <div className="px-[165px] py-[120px]">
+    <section className="xl:mx-[30px] 2xl:mx-14 bg-[#F2F2F2] xl:rounded-[50px] 2xl:rounded-[80px] shadow-[0px_8px_32px_2px_rgba(0,0,0,0.12)]">
+      <div className="px-5 xl:px-10 2xl:px-[60px] 3xl:px-[120px] 4xl:px-[160px] py-10 xl:py-12 2xl:py-16 3xl:py-[120px]">
         {/* This is the title section */}
         <div className="text-center">
           <p
             data-aos="fade-up"
             data-aos-delay="100"
-            className="text-[#050404] text-[56px] font-extrabold leading-[72.8px]"
+            className="text-[#050404] text-[22px] md:text-[26px] lg:text-[30px] mb-1 lg:mb-0 2xl:text-[45px] 3xl:text-[56px] font-extrabold xl:leading-[72.8px]"
           >
             How It <span className="text-[#B68D40]">Works</span>
           </p>
           <p
             data-aos="fade-up"
             data-aos-delay="100"
-            className="text-[#545454] text-2xl font-normal leading-[45.6px]"
+            className="text-[#545454] lg:text-lg 2xl:text-2xl font-normal lg:leading-[45.6px]"
           >
             Pay Your Rent, Fees & Bills Seamlessly with RedGirraffe
           </p>
           <p
             data-aos="fade-up"
             data-aos-delay="100"
-            className="text-[#545454] text-xl leading-[26.4px]"
+            className="text-[#545454] lg:text-lg 2xl:text-xl lg:leading-[26.4px]"
           >
             Simple, Secure & Rewarding
           </p>
         </div>
         {/* This is the card section */}
-        <div className="mt-16">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="mt-10 xl:mt-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 xl:gap-6 3xl:gap-8">
             {cardsData.map((card, index) => (
               <HowItWorksCard
                 key={index}
@@ -103,18 +103,18 @@ const HowItWorks = () => {
           </div>
         </div>
         {/* This is the title section */}
-        <div className="text-center mt-16">
+        <div className="text-center mt-8 2xl:mt-16">
           <p
             data-aos="fade-up"
             data-aos-delay="100"
-            className="text-[#545454] text-2xl font-normal leading-[45.6px]"
+            className="text-[#545454] text-lg md:text-xl lg:text-2xl font-normal lg:leading-[45.6px]"
           >
             Start Making Smart Payments Today!
           </p>
           <p
             data-aos="fade-up"
             data-aos-delay="100"
-            className="text-[#545454] text-xl leading-[26.4px]"
+            className="text-[#545454] md:text-lg lg:text-xl lg:leading-[26.4px]"
           >
             No more hassle—just seamless, rewarding transactions with
             RedGirraffe!
@@ -122,7 +122,7 @@ const HowItWorks = () => {
           <div
             data-aos="fade-up"
             data-aos-delay="100"
-            className="flex justify-center mt-16"
+            className="flex justify-center mt-8 2xl:mt-16"
           >
             <ButtonAndArrow bgColor={"#B68D40"} buttonText="Get Started Now" />
           </div>
