@@ -1,15 +1,14 @@
-import { Link } from "react-router-dom";
-
+import { Link } from "react-router-dom"
 import logo from "../assets/images/logo.svg";
 
 const Footer = () => {
   return (
     <section>
       {/* This is the first div */}
-      <div className="bg-[#2D2D2D] pt-[68px] px-[63px] pb-[33px]">
-        <div className="grid grid-cols-5 gap-10">
+      <div className="bg-[#2D2D2D] pt-7 lg:pt-10 2xl:pt-[68px] px-5 lg:px-8 2xl:px-12 pb-[33px]">
+        <div className="grid lg:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-5 gap-5 4xl:gap-10">
           {/* This is the first div */}
-          <div>
+          <div className="order-1">
             <div data-aos="fade-up" data-aos-delay="100">
               <p className="text-[#FFF]">Important Links</p>
               <p className="text-[#B68D40] font-extrabold leading-[22.96px] mt-1">
@@ -91,7 +90,7 @@ const Footer = () => {
             </ul>
           </div>
           {/* This is the second div */}
-          <div>
+          <div className="order-2">
             <div data-aos="fade-up" data-aos-delay="100">
               <p className="text-[#FFF]">Policies & Compliance</p>
               <p className="text-[#B68D40] font-extrabold leading-[22.96px] mt-1">
@@ -158,7 +157,7 @@ const Footer = () => {
             </ul>
           </div>
           {/* This is the Third div */}
-          <div>
+          <div className="order-4 xl:order-3">
             <div data-aos="fade-up" data-aos-delay="100">
               <p className="text-[#FFF]">Business Services</p>
               <p className="text-[#B68D40] font-extrabold leading-[22.96px] mt-1">
@@ -195,7 +194,7 @@ const Footer = () => {
             </ul>
           </div>
           {/* This is the Fourth div */}
-          <div>
+          <div className="order-3 xl:order-4">
             <div data-aos="fade-up" data-aos-delay="100">
               <p className="text-[#FFF]">Our Offices</p>
               <p className="text-[#B68D40] font-extrabold leading-[22.96px] mt-1">
@@ -292,7 +291,7 @@ const Footer = () => {
             </ul>
           </div>
           {/* This is the Fifth div */}
-          <div>
+          <div className="order-5">
             <div>
               <p
                 data-aos="fade-up"
@@ -309,16 +308,17 @@ const Footer = () => {
                 Never miss an update
               </p>
             </div>
+
             {/* This is the button section */}
-            <div className="mt-5 relative">
+            <div className="mt-5 relative w-[280px] h-12">
               <input
                 data-aos="fade-up"
                 data-aos-delay="100"
                 type="text"
                 placeholder="Enter your email"
-                className="py-3 px-6 rounded-[400px] w-[288px] h-12"
+                className="py-3 px-4 rounded-[400px] w-full h-full"
               />
-              <button className="bg-[#B68D40] rounded-[47px] my-2 px-5 text-[#050404] font-bold leading-[23.8px] absolute right-[42px] py-2 top-[-4px]">
+              <button className="bg-[#B68D40] rounded-[47px] my-2 px-4 text-[#050404] font-bold leading-[23.8px] py-2 absolute right-1 -top-1">
                 Subscribe
               </button>
             </div>
@@ -331,21 +331,21 @@ const Footer = () => {
                 <p
                   data-aos="fade-up"
                   data-aos-delay="100"
-                  className="border-r-2 border-[#B68D40] pr-2 text-[#B68D40] font-bold"
+                  className="border-r-2 border-[#B68D40] pr-2 text-[#B68D40] font-bold text-nowrap"
                 >
                   Payments
                 </p>
                 <p
                   data-aos="fade-up"
                   data-aos-delay="100"
-                  className="border-r-2 border-[#B68D40] pr-2 text-[#B68D40] font-bold"
+                  className="border-r-2 border-[#B68D40] pr-2 text-[#B68D40] font-bold text-nowrap"
                 >
                   B2B SaaS
                 </p>
                 <p
                   data-aos="fade-up"
                   data-aos-delay="100"
-                  className="pr-2 border-[#B68D40] text-[#B68D40] font-bold"
+                  className="pr-2 border-[#B68D40] text-[#B68D40] font-bold text-nowrap"
                 >
                   Real Estate
                 </p>
@@ -363,7 +363,7 @@ const Footer = () => {
               <p
                 data-aos="fade-up"
                 data-aos-delay="100"
-                className="text-[#E6E6E6] text-xl font-bold"
+                className="text-[#E6E6E6] xl:text-xl font-bold"
               >
                 connect@redgirraffe.com
               </p>
@@ -373,11 +373,7 @@ const Footer = () => {
       </div>
       {/* This is the second div */}
       <div className="bg-[#B68D40] h-16 flex justify-center items-center">
-        <p
-          data-aos="fade-up"
-          data-aos-delay="100"
-          className="text-[#050404] text-[13px] font-bold leading-[21.32px]"
-        >
+        <p className="text-[#050404] text-[13px] font-bold leading-[21.32px]">
           Copyright © 2025-2026 | RedGirraffe - All rights reserved
         </p>
       </div>

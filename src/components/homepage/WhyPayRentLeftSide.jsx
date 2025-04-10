@@ -118,11 +118,11 @@ const WhyPayRentLeftSide = () => {
           className="border-b last:border-b-0 pb-7 pt-7 group cursor-pointer"
         >
           <div data-aos="fade-up" data-aos-delay="100" className="flex gap-3">
-            <button className="bg-[#BF9B58] p-[6px] rounded-[200px] self-start">
+            <button className="bg-[#BF9B58] p-1 lg:p-[6px] rounded-[200px] self-start">
               {item.icon}
             </button>
             <p
-              className={`text-[#000717] text-xl font-extrabold leading-8 group-hover:text-[#BF9B58]
+              className={`text-[#000717] text-[17px] md:text-lg 2xl:text-xl font-semibold md:font-extrabold lg:leading-8 group-hover:text-[#BF9B58]
           transition-all duration-900 ease-in group-hover:scale-105 group-hover:text-[21px] 
           ${index === 0 ? "text-[21px] scale-[105px] text-[#BF9B58] " : ""}`}
             >
@@ -132,7 +132,7 @@ const WhyPayRentLeftSide = () => {
           <p
             data-aos="fade-up"
             data-aos-delay="100"
-            className="mt-5 text-[#4D4D4D] text-xl font-normal leading-9"
+            className="mt-2 md:mt-3 2xl:mt-5 text-[#4D4D4D] xl:text-lg 2xl:text-xl font-normal xl:leading-9"
           >
             {item.description}
           </p>
@@ -142,12 +142,12 @@ const WhyPayRentLeftSide = () => {
       <p
         data-aos="fade-up"
         data-aos-delay="100"
-        className="mt-[26px] text-[#050404] text-xl font-extrabold leading-8"
+        className="mt-3 lg:mt-[26px] text-[#050404] lg:text-lg xl:text-xl text-semibold lg:font-extrabold lg:leading-8"
       >
         Turn Fixed Payments into Financial Gains! Pay Rent, Fees & Bills the
         Smart Way.
       </p>
-      <div data-aos="fade-up" data-aos-delay="100" className="mt-12">
+      <div data-aos="fade-up" data-aos-delay="100" className="mt-7 md:mt-12">
         <ButtonAndArrow bgColor="#B68D40" buttonText="Get Started Now" />
       </div>
     </section>

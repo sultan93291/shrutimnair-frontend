@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { motion } from "framer-motion";
 
@@ -15,7 +15,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { ReviewData } from "@/ReviewData/ReviewData";
 import hero from "../../assets/hero.png";
 
-const CommonHeroBanner = ({ isB2b = "false" }) => {
+const CommonHeroBanner = () => {
   const subtitleRef = useRef(null);
   const buttonRef = useRef(null);
   const divRef = useRef(null);
@@ -112,39 +112,35 @@ const CommonHeroBanner = ({ isB2b = "false" }) => {
 
   return (
     <section
-      className={`px-14 py-36 ${
-        isBusiness ? "bg-[#1D2526]" : "bg-[#752828]"
-      } rounded-b-[80px]`}
+      className={`px-5 lg:px-10 4xl:px-14 pt-8 pb-10 lg:py-12 xl:py-32 2xl:py-36 ${isBusiness ? "bg-[#1D2526]" : "bg-[#752828]"
+        } xl:rounded-b-[50px] 2xl:rounded-b-[80px]`}
     >
-      <div className="flex items-center">
+      <div className="flex items-center flex-col xl:flex-row gap-8 xl:gap-0">
         {/* Left Side */}
-        <div className="flex-1 self-start">
+        <div className="flex-1 self-start w-full">
           <div
             data-aos="fade-up"
             data-aos-delay="500"
             className="flex items-center space-x-2 ease-in duration-500 "
           >
-            <p className="text-[#FFF] text-[22px]  ">Individual</p>
+            <p className="text-[#FFF] text-lg lg:text-[22px]">Individual</p>
             <Switch
               id="airplane-mode"
               checked={isBusiness}
               onCheckedChange={handleChange}
             />
-            <p className="text-[#FFF] text-[22px]">Business</p>
+            <p className="text-[#FFF] text-lg lg:text-[22px]">Business</p>
           </div>
 
-          <div className="mt-12 space-y-3">
+          <div className="mt-5 2xl:mt-12 space-y-1 lg:space-y-3">
             <div
               ref={gsapContainerRef}
-              className="gsap-container text-[85px] font-extrabold leading-[102px] text-[#F2DFD7]"
+              className="gsap-container text-[22px] md:text-[28px] lg:text-[32px] xl:text-[40px] 2xl:text-[60px] 4xl:text-[80px] font-extrabold 2xl:leading-[80px] 4xl:leading-[102px] text-[#F2DFD7]"
             >
               <div className="line">
                 <h1>
                   {isBusiness ? "SaaS That" : "All"}
-                  <span className="text-[#E8C547]">
-                    {" "}
-                    {!isBusiness && "Payments"}
-                  </span>
+                  <span className="text-[#E8C547] "> {!isBusiness && "Payments"}</span>
                   {!isBusiness && " One"}
                 </h1>
               </div>
@@ -159,14 +155,14 @@ const CommonHeroBanner = ({ isB2b = "false" }) => {
 
             <div ref={subtitleRef}>
               <div className="line">
-                <h2 className="text-[#F2DFD7] text-2xl font-normal leading-8">
+                <h2 className="text-[#F2DFD7] md:text-lg xl:text-xl font-normal leading-8">
                   Rent, Fees, Society Charges + Rs 3,000/Month in CASH Points
                 </h2>
               </div>
             </div>
           </div>
 
-          <button ref={buttonRef} className="mt-12">
+          <button ref={buttonRef} className="mt-5 xl:mt-8 2xl:mt-12">
             <ButtonAndArrow
               buttonText={isBusiness ? "Explore Solutions" : "Get Started"}
             />
@@ -174,7 +170,7 @@ const CommonHeroBanner = ({ isB2b = "false" }) => {
         </div>
 
         {/* Right Side */}
-        <div className="flex-1 relative">
+        <div className="flex-1 relative w-full">
           <motion.figure
             ref={divRef}
             animate={{
@@ -191,7 +187,7 @@ const CommonHeroBanner = ({ isB2b = "false" }) => {
               repeatType: "reverse",
               ease: [0.32, 0, 0.67, 1],
             }}
-            className="w-[797px] h-[470px] border-[19.339px] rounded-[31.771px] border-[#E2C65E] relative z-50"
+            className="w-full max-w-[797px] h-[280px] md:h-[350px] lg:h-[400px] 2xl:h-[470px] border-[17px] 2xl:border-[19.339px] rounded-[31.771px] border-[#E2C65E] relative z-50"
           >
             {isBusiness ? (
               <img
@@ -219,7 +215,7 @@ const CommonHeroBanner = ({ isB2b = "false" }) => {
                 repeatType: "reverse",
                 ease: [0.32, 0, 0.67, 1],
               }}
-              className="absolute bottom-[-70px] left-[-90px] z-[999]"
+              className="absolute bottom-[-70px] left-[-90px] z-[999] hidden xl:block"
             >
               <ServeyTab />
             </motion.div>
@@ -233,14 +229,14 @@ const CommonHeroBanner = ({ isB2b = "false" }) => {
                 repeatType: "reverse",
                 ease: "easeInOut",
               }}
-              className="absolute top-[-90px] right-0 mr-[-56px] z-[999]"
+              className="absolute top-[-90px] right-0 mr-[-56px] z-[999] hidden xl:block"
             >
               <UserActive />
             </motion.div>
           </motion.figure>
 
           {/* Dotted SVG */}
-          <div className="absolute top-[-85px] left-[-95px] z-10">
+          <div className="absolute top-[-85px] left-[-95px] z-10 hidden xl:block">
             <DottedSvg />
           </div>
         </div>
