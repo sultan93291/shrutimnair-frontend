@@ -45,7 +45,7 @@ const B2bCommonFeature = ({
   };
 
   console.log(SvgColor);
-  
+
   return (
     <div className="w-full px-[56px] h-full ">
       <div
@@ -76,13 +76,13 @@ const B2bCommonFeature = ({
             {SubTittle}
           </span>
         </div>
-        <div className="flex flex-row gap-12 flex-wrap items-center justify-center cursor-pointer ">
+        <div className="flex flex-row gap-12 flex-wrap items-center justify-center cursor-pointer   ">
           {CardDetails.map((item, index) => {
             const SvgIcon = SvgArr[item.svg];
             return (
               <div
                 key={index}
-                className="h-auto max-w-[360px]  py-10 px-10 bg-white shadow-[0px_6px_16px_0px_rgba(0,0,0,0.12)]
+                className="h-auto max-w-[360px] border-[1px] border-solid ease-in-out duration-500 border-transparent hover:bg-[#F5F0E4] hover:border-[#B68D40]  py-10 px-10 bg-white shadow-[0px_6px_16px_0px_rgba(0,0,0,0.12)]
  rounded-[24px] flex flex-col gap-y-[21px]  items-center"
               >
                 <div
@@ -93,7 +93,7 @@ const B2bCommonFeature = ({
                 >
                   <SvgIcon data-aos="fade-up" data-aos-delay="100" />
                 </div>
-                <div  className="w-[312px] text-center ">
+                <div className="w-[312px] text-center ">
                   <span
                     data-aos="fade-up"
                     data-aos-delay="100"
