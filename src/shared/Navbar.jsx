@@ -5,6 +5,8 @@ import {
   WhatsappSvg,
 } from "../components/svg-container/SvgContainer";
 import { useSelector } from "react-redux";
+
+
 const Navbar = () => {
   const navLinks = [
     {

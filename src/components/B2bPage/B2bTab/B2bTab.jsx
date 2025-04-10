@@ -2,9 +2,11 @@ import ButtonAndArrow from "@/components/common/ButtonAndArrow";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import heroVideo from "../../../assets/videos/hero_video.mp4";
-import { SetAcitveTab } from "@/redux/features/tabdataSlice";
+import {
+  SetAcitveTab,
+  SetActiveFeatureData,
+} from "@/redux/features/tabdataSlice";
 import { useDispatch } from "react-redux";
-
 
 const TabDetails = [
   {
@@ -58,7 +60,7 @@ const TabDetails = [
 const B2bTab = () => {
   const [ActiveTabId, setActiveTabId] = useState(TabDetails[0].id);
   const [ActiveTab, setActiveTab] = useState(TabDetails[0]);
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
 
   return (
     <div className="flex flex-col gap-y-[96px] pb-[525px] ">
@@ -90,7 +92,7 @@ const B2bTab = () => {
                   setActiveTabId(item.id);
                   setActiveTab(item);
                   dispatch(SetAcitveTab(item.tittle));
-                  
+                  dispatch(SetActiveFeatureData(item.tittle));
                 }}
                 className="mt-12 transition-opacity duration-300 hover:opacity-80" // Optional: Add button hover effect
               >

@@ -11,11 +11,11 @@ import UserActive from "./UserActive";
 import heroVideo from "../../assets/videos/hero_video.mp4";
 import { useDispatch, useSelector } from "react-redux";
 import { setIsBusinessActive } from "@/redux/features/businessSlice";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { ReviewData } from "@/ReviewData/ReviewData";
-import hero from "../../assets/hero.png"
+import hero from "../../assets/hero.png";
 
-const CommonHeroBanner = ({ isB2b="false" }) => {
+const CommonHeroBanner = ({ isB2b = "false" }) => {
   const subtitleRef = useRef(null);
   const buttonRef = useRef(null);
   const divRef = useRef(null);
@@ -27,6 +27,14 @@ const CommonHeroBanner = ({ isB2b="false" }) => {
   const isBusiness = useSelector(
     state => state.businessReducer.isBusinessActive
   );
+
+  const commonFeatureData = useSelector(
+    state => state.tabReducer.ActiveFeatureData
+  );
+
+  console.log(commonFeatureData, "this is the common feature data");
+
+  const location = useLocation();
 
   const handleChange = checked => {
     dispatch(setIsBusinessActive(checked));
@@ -94,6 +102,14 @@ const CommonHeroBanner = ({ isB2b="false" }) => {
 
   console.log(ReviewData, "this is the review data");
 
+  useEffect(() => {
+    if (location.pathname === "/") {
+      dispatch(setIsBusinessActive(false));
+    } else if (location.pathname === "/b2b-sass") {
+      dispatch(setIsBusinessActive(true));
+    }
+  }, [location.pathname, dispatch]);
+
   return (
     <section
       className={`px-14 py-36 ${
@@ -133,10 +149,10 @@ const CommonHeroBanner = ({ isB2b="false" }) => {
                 </h1>
               </div>
               <div className="line">
-                <h2 className="text-[#E8C547] flex gap-x-2">
+                <h1 className="text-[#E8C547] flex gap-x-2">
                   {isBusiness && "Solves"}
                   <h2 className="text-white"> {isBusiness && "It All"} </h2>
-                </h2>
+                </h1>
                 <h2> {!isBusiness && "Place, Big Rewards"} </h2>
               </div>
             </div>
@@ -177,7 +193,7 @@ const CommonHeroBanner = ({ isB2b="false" }) => {
             }}
             className="w-[797px] h-[470px] border-[19.339px] rounded-[31.771px] border-[#E2C65E] relative z-50"
           >
-            {isB2b ? (
+            {isBusiness ? (
               <img
                 src={hero}
                 alt="not found"

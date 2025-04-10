@@ -133,89 +133,15 @@ const B2Bpage = () => {
     mcdonalds,
   ];
 
-  const cardDataOne = {
-    BgColor: "#F5F5F5",
-    Tittle: "Pain Points for Companies",
-    SubTittle: "Lease Chaos Costs You Millions - Here’s what’s going wrong",
-    TittleVariant: "large",
-    CardDetails: [
-      {
-        svg: Pricingmeter,
-        subTitle: "Tracking leases across locations eats hours.",
-      },
-      {
-        svg: DollarBag,
-        subTitle: "Sky-high energy bills drain your budget.",
-      },
-      {
-        svg: Warning,
-        subTitle: "Missed renewals hit you with penalties.",
-      },
-      {
-        svg: TrashBin,
-        subTitle: "No visibility into energy waste.",
-      },
-      {
-        svg: Confused,
-        subTitle: "Compliance rules trip you up constantly.",
-      },
-      {
-        svg: Infilation,
-        subTitle: "Paying for unused space kills profits.",
-      },
-      {
-        svg: MoneyCalculation,
-        subTitle: "Budgeting leases is a total crapshoot.",
-      },
-    ],
-  };
-
-  const cardDataTwo = {
-    BgColor: "#E9F8F9",
-    Tittle: "Lease-Core driven Solutions ",
-    SubTittle: "Control Restored - Here’s how we save the day",
-    TittleVariant: "large",
-    CardDetails: [
-      {
-        svg: Pricingmeter,
-        subTitle: "One hub to manage every lease - done.",
-      },
-      {
-        svg: DollarBag,
-        subTitle: "Smart energy tracking cuts costs fast.",
-      },
-      {
-        svg: Warning,
-        subTitle: "Auto-alerts keep renewals on lock.",
-      },
-      {
-        svg: TrashBin,
-        subTitle: "See energy use in real time, save big.",
-      },
-      {
-        svg: Confused,
-        subTitle: "Compliance sorted, no sweat.",
-      },
-      {
-        svg: Infilation,
-        subTitle: "Optimize space, ditch the waste.",
-      },
-      {
-        svg: MoneyCalculation,
-        subTitle: "Budget with precision, not guesswork.",
-      },
-    ],
-  };
-
   const imgArr = [logosGroupOne, logosGroupTwo];
   const isBusiness = useSelector(
     state => state.businessReducer.isBusinessActive
   );
 
   const ActiveFeatureData = useSelector(
-    state => state.businessReducer.ActiveFeatureData
+    state => state.tabReducer.ActiveFeatureData
   );
-  console.log(ActiveFeatureData , 'this is the active feature data');
+  console.log(ActiveFeatureData, "this is the active feature data");
 
   return (
     <div>
@@ -232,18 +158,18 @@ const B2Bpage = () => {
         </div>
         <div className="mb-[120px]">
           <B2bCommonFeature
-            Tittle={cardDataOne.Tittle}
-            SubTittle={cardDataOne.SubTittle}
-            CardDetails={cardDataOne.CardDetails}
-            BgColor={cardDataOne.BgColor}
+            Tittle={ActiveFeatureData[0]?.Tittle}
+            SubTittle={ActiveFeatureData[0]?.SubTittle}
+            CardDetails={ActiveFeatureData[0]?.CardDetails}
+            BgColor={ActiveFeatureData[0]?.BgColor}
           />
         </div>
         <div className="mb-[120px]">
           <B2bCommonFeature
-            Tittle={cardDataTwo.Tittle}
-            SubTittle={cardDataTwo.SubTittle}
-            CardDetails={cardDataTwo.CardDetails}
-            BgColor={cardDataTwo.BgColor}
+            Tittle={ActiveFeatureData[1]?.Tittle}
+            SubTittle={ActiveFeatureData[1]?.SubTittle}
+            CardDetails={ActiveFeatureData[1]?.CardDetails}
+            BgColor={ActiveFeatureData[1]?.BgColor}
           />
         </div>
         <div className=" mb-[87px]">

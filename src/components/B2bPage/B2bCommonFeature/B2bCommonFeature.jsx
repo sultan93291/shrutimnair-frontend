@@ -1,4 +1,20 @@
-import { Pricingmeter } from "@/components/svg-container/SvgContainer";
+import {
+  Pricingmeter,
+  DollarBag,
+  Warning,
+  TrashBin,
+  Confused,
+  Infilation,
+  MoneyCalculation,
+  Idea,
+  CostCutting,
+  Energy,
+  Donation,
+  VerifiedCash,
+  Box,
+  DollarSetting,
+  Certified,
+} from "@/components/svg-container/SvgContainer";
 import React from "react";
 
 const B2bCommonFeature = ({
@@ -10,6 +26,22 @@ const B2bCommonFeature = ({
   isHighlight = false,
   Direction = "start",
 }) => {
+  const SvgArr = {
+    Pricingmeter,
+    DollarBag,
+    Warning,
+    TrashBin,
+    Confused,
+    Infilation,
+    MoneyCalculation,
+    Idea,
+    CostCutting,
+    Energy,
+    Donation,
+    Certified,
+    Box,
+    DollarSetting,
+  };
   return (
     <div className="w-full px-[56px] h-full ">
       <div
@@ -42,7 +74,7 @@ const B2bCommonFeature = ({
         </div>
         <div className="flex flex-row gap-12 flex-wrap items-center justify-center cursor-pointer ">
           {CardDetails.map((item, index) => {
-            const Icon = item.svg;
+            const SvgIcon = SvgArr[item.svg];
             return (
               <div
                 key={index}
@@ -50,7 +82,7 @@ const B2bCommonFeature = ({
  rounded-[24px] flex flex-col gap-y-[21px]  items-center"
               >
                 <div className="w-[58px] h-[58px] rounded-full bg-[#4A3B2C] border-[0.892px] border-solid border-[rgba(68, 87, 98, 0.50)] flex items-center justify-center  ">
-                  <Icon data-aos="fade-up" data-aos-delay="100" />
+                  <SvgIcon data-aos="fade-up" data-aos-delay="100" />
                 </div>
                 <span
                   data-aos="fade-up"
