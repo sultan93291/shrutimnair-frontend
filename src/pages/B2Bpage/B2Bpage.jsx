@@ -162,6 +162,10 @@ const B2Bpage = () => {
             SubTittle={ActiveFeatureData[0]?.SubTittle}
             CardDetails={ActiveFeatureData[0]?.CardDetails}
             BgColor={ActiveFeatureData[0]?.BgColor}
+            SvgColor={ActiveFeatureData[0]?.SvgColorCode}
+            isHighlight={ActiveFeatureData[0].isHighlight}
+            HighLightedTxt={ActiveFeatureData[0].HighLightedTxt}
+            Direction={ActiveFeatureData[0].Direction}
           />
         </div>
         <div className="mb-[120px]">
@@ -170,6 +174,10 @@ const B2Bpage = () => {
             SubTittle={ActiveFeatureData[1]?.SubTittle}
             CardDetails={ActiveFeatureData[1]?.CardDetails}
             BgColor={ActiveFeatureData[1]?.BgColor}
+            SvgColor={ActiveFeatureData[1]?.SvgColorCode}
+            isHighlight={ActiveFeatureData[1].isHighlight}
+            HighLightedTxt={ActiveFeatureData[1].HighLightedTxt}
+            Direction={ActiveFeatureData[1].Direction}
           />
         </div>
         <div className=" mb-[87px]">
