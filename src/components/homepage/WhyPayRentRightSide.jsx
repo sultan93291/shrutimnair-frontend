@@ -116,7 +116,7 @@ const WhyPayRentRightSide = () => {
             <p
               className={`text-[#000717] text-[17px] md:text-lg 2xl:text-xl font-semibold lg:font-extrabold lg:leading-8 group-hover:text-[#BF9B58]
           transition-all duration-900 ease-in group-hover:scale-105 group-hover:text-[21px] 
-          ${index === 0 ? "text-[21px] scale-[105px] text-[#BF9B58] " : ""}`}
+          ${index === 0 ? "lg:text-[21px] scale-[105px] text-[#BF9B58] " : ""}`}
             >
               {item.title}
             </p>

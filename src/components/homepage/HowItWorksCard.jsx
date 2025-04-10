@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const HowItWorksCard = ({ title, steps, icon }) => {
   return (
-    <div className="group transition-all lg:min-h-[460px] duration-500 border border-[#FFF] rounded-3xl pt-7 3xl:pt-10 pb-9 3xl:pb-14 px-7 3xl:px-12 bg-[#FFF] hover:bg-[#F5F0E4] hover:border-[#B68D40] cursor-pointer h-auto">
+    <div className="group transition-all lg:min-h-[460px] duration-500 border border-[#FFF] rounded-3xl pt-5 md:pt-7 3xl:pt-10 pb-9 3xl:pb-14 px-5 md:px-7 3xl:px-12 bg-[#FFF] hover:bg-[#F5F0E4] hover:border-[#B68D40] cursor-pointer h-auto">
       <div className="w-full">
         <motion.div
           initial={{ opacity: 0 }}
@@ -24,15 +24,15 @@ const HowItWorksCard = ({ title, steps, icon }) => {
                 {icon}
               </span>
             </button>
-            <div className="mt-6">
+            <div className="mt-3 md:mt-6">
               <p
                 data-aos="fade-up"
                 data-aos-delay="100"
-                className="text-[#050404] text-xl 2xl:text-[22px] font-bold leading-[30.8px]"
+                className="text-[#050404] text-lg md:text-xl 2xl:text-[22px] font-bold lg:leading-[30.8px]"
               >
                 {title}
               </p>
-              <div className="flex flex-col  gap-y-3 mt-5 ">
+              <div className="flex flex-col gap-y-2 md:gap-y-3 mt-2 md:mt-5 ">
                 {steps.map((step, idx) => (
                   <p
                     data-aos="fade-up"
