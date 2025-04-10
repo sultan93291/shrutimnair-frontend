@@ -109,17 +109,17 @@ const HomePage = () => {
   return (
     <div>
       <CommonHeroBanner />
-      <div className="mt-[154px]">
+      <div className="mt-[20px] md:mt-[40px] 2xl:mt-[80px] 3xl:mt-[154px]">
         <ReactMarquee
           isIndividual={true}
           imgArr={imgArr}
-          gap={180}
+          gap={150}
           speed={80}
         />
-        <div className="mt-[167px]">
+        <div className="mt-[20px] md:mt-[40px] 2xl:mt-[80px] 3xl:mt-[154px]">
           <WhyPayRent />
         </div>
-        <div className="mt-[120px]">
+        <div className="mt-[20px] md:mt-[30px] 2xl:mt-[70px] 3xl:mt-[120px]">
           <HowItWorks />
         </div>
         <div className="mt-[120px]">
