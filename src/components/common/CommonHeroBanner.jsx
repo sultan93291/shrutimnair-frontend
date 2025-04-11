@@ -8,7 +8,7 @@ import BannerPic from "../../assets/images/banner-pic.png";
 import { DottedSvg } from "../svg-container/SvgContainer";
 import ServeyTab from "./ServeyTab";
 import UserActive from "./UserActive";
-import heroVideo from "../../assets/videos/hero_video.mp4";
+import heroVideo from "../../assets/videos/hero.mp4";
 import { useDispatch, useSelector } from "react-redux";
 import { setIsBusinessActive } from "@/redux/features/businessSlice";
 import { useLocation, useNavigate } from "react-router-dom";
@@ -23,6 +23,8 @@ const CommonHeroBanner = () => {
   const navigate = useNavigate();
 
   const dispatch = useDispatch();
+
+  console.log(heroVideo , 'this is the hero video');
 
   const isBusiness = useSelector(
     state => state.businessReducer.isBusinessActive
@@ -112,8 +114,9 @@ const CommonHeroBanner = () => {
 
   return (
     <section
-      className={`px-5 lg:px-10 4xl:px-14 pt-8 pb-10 lg:py-12 xl:py-32 2xl:py-36 ${isBusiness ? "bg-[#1D2526]" : "bg-[#752828]"
-        } xl:rounded-b-[50px] 2xl:rounded-b-[80px]`}
+      className={`px-5 lg:px-10 4xl:px-14 pt-8 pb-10 lg:py-12 xl:py-32 2xl:py-36 ${
+        isBusiness ? "bg-[#1D2526]" : "bg-[#752828]"
+      } xl:rounded-b-[50px] 2xl:rounded-b-[80px]`}
     >
       <div className="flex items-center flex-col xl:flex-row gap-8 xl:gap-0">
         {/* Left Side */}
@@ -140,7 +143,10 @@ const CommonHeroBanner = () => {
               <div className="line">
                 <h1>
                   {isBusiness ? "SaaS That" : "All"}
-                  <span className="text-[#E8C547] "> {!isBusiness && "Payments"}</span>
+                  <span className="text-[#E8C547] ">
+                    {" "}
+                    {!isBusiness && "Payments"}
+                  </span>
                   {!isBusiness && " One"}
                 </h1>
               </div>
@@ -201,7 +207,6 @@ const CommonHeroBanner = () => {
                 src={heroVideo}
                 autoPlay
                 loop
-                muted
                 playsInline
               ></video>
             )}
