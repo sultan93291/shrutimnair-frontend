@@ -24,7 +24,7 @@ const CommonHeroBanner = () => {
 
   const dispatch = useDispatch();
 
-  console.log(heroVideo , 'this is the hero video');
+  console.log(heroVideo, "this is the");
 
   const isBusiness = useSelector(
     state => state.businessReducer.isBusinessActive
@@ -208,6 +208,7 @@ const CommonHeroBanner = () => {
                 autoPlay
                 loop
                 playsInline
+                muted
               ></video>
             )}
 
