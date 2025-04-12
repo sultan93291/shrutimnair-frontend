@@ -150,8 +150,8 @@ const B2Bpage = () => {
         <ReactMarquee
           isIndividual={false}
           imgArr={imgArr}
-          gap={180}
-          speed={80}
+          gap={300}
+          speed={70}
         />
         <div className="mt-[120px] ">
           <B2bTab />

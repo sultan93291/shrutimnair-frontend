@@ -9,9 +9,9 @@ import baroda from "../../assets/images/bankingLogo/Bank_of_Baroda-3ryBfGUM_bran
 import barclays from "../../assets/images/bankingLogo/barclays-logo-1.svg";
 import bhim from "../../assets/images/bankingLogo/BHIM-OryQ25gqM_brandlogos.net.svg";
 import bnp from "../../assets/images/bankingLogo/bnp-paribas-1.svg";
-import canara from "../../assets/images/bankingLogo/canara-bank-logo-vector.png";
+import canara from "../../assets/images/bankingLogo/Canara_Bank_Logo.svg.png";
 import capital from "../../assets/images/bankingLogo/capital-small-finance-bank-logo-brandlogos.net_lzt9wkcs2.svg";
-import central from "../../assets/images/bankingLogo/central-bank-of-india-1911-vector-logo.png";
+import central from "../../assets/images/bankingLogo/central-bank-of-india-1911-seeklogo.png";
 import citi from "../../assets/images/bankingLogo/citibank-5.svg";
 import deutsche from "../../assets/images/bankingLogo/deutsche-bank-logo-without-wordmark.svg";
 import development from "../../assets/images/bankingLogo/development-bank-of-singapore.svg";
@@ -22,12 +22,11 @@ import HDFC from "../../assets/images/bankingLogo/HDFC-Oi8faq9wi_brandlogos.net 
 import hsbc from "../../assets/images/bankingLogo/hsbc-3.svg";
 import ICIC from "../../assets/images/bankingLogo/ICICI_Bank-7DEFd4t0_brandlogos.net.svg";
 import idibi from "../../assets/images/bankingLogo/idbi-bank-logo-1 (1).svg";
-import axis from "../../assets/images/bankingLogo/idbi-bank-vector-logo.png";
 import idfc from "../../assets/images/bankingLogo/idfc-first-bank-logo-brandlogos.net_b09qwqpa3 (1).svg";
-import indian from "../../assets/images/bankingLogo/indian-bank-vector-logo.png";
+import indian from "../../assets/images/bankingLogo/Indian_Bank_logo.svg.png";
 import indian_ovesars from "../../assets/images/bankingLogo/indian-overseas-bank-vector-logo.png";
 import insuind from "../../assets/images/bankingLogo/indusind-bank-logo-brandlogos.net_a37d9tcf4.svg";
-import jcb from "../../assets/images/bankingLogo/jcb-emblem-logo.svg";
+import jcb from "../../assets/images/bankingLogo/jcb-card-icon.svg";
 import kotak from "../../assets/images/bankingLogo/Kotak_Mahindra_Bank-Ob9zXUbPM_brandlogos.net.svg";
 import lic from "../../assets/images/bankingLogo/lic.svg";
 import mastercard from "../../assets/images/bankingLogo/mastercard-logo-O88F55Erg_brandlogos.net.svg";
@@ -37,8 +36,8 @@ import rupay from "../../assets/images/bankingLogo/RuPay-O8gnEB5np_brandlogos.ne
 import sbi from "../../assets/images/bankingLogo/sbi-life-insurance-logo-brandlogos.net_x3rqfpbn1 (1).svg";
 import standard from "../../assets/images/bankingLogo/standard-chartered-2.svg";
 import state from "../../assets/images/bankingLogo/State_Bank_of_India-OBB9IFDl8_brandlogos.net.svg";
-import syndicate from "../../assets/images/bankingLogo/syndicate-bank-vector-logo.png";
-import uco from "../../assets/images/bankingLogo/uco-bank-vector-logo.png";
+import syndicate from "../../assets/images/bankingLogo/idU7IIyeu0_1744453198000.svg";
+import uco from "../../assets/images/bankingLogo/239-2391368_newsflash-cbi-arrests-two-officials-of-uco-bank-in-uco-bank-logo.png";
 import union from "../../assets/images/bankingLogo/union-bank-of-india.svg";
 import visa from "../../assets/images/bankingLogo/Visa_Inc-OdftkRHIe_brandlogos.net.svg";
 import yes from "../../assets/images/bankingLogo/Yes_Bank-OSuEn7mdt_brandlogos.net.svg";
@@ -70,7 +69,6 @@ const bankLogos1 = [
 
 const bankLogos2 = [
   idibi,
-  axis,
   idfc,
   indian,
   indian_ovesars,
@@ -113,8 +111,8 @@ const HomePage = () => {
         <ReactMarquee
           isIndividual={true}
           imgArr={imgArr}
-          gap={150}
-          speed={80}
+          gap={300}
+          speed={70}
         />
         <div className="mt-[60px] 2xl:mt-[80px] 3xl:mt-[154px]">
           <WhyPayRent />

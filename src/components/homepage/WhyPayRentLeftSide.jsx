@@ -118,7 +118,7 @@ const WhyPayRentLeftSide = () => {
           className="border-b last:border-b-0 pb-7 pt-7 group cursor-pointer"
         >
           <div data-aos="fade-up" data-aos-delay="100" className="flex gap-3">
-            <button className="bg-[#BF9B58] p-1 lg:p-[6px] rounded-[200px] self-start">
+            <button className="bg-[#BF9B58] p-1 lg:p-[6px] xl:rounded-[200px] self-start">
               {item.icon}
             </button>
             <p

@@ -33,7 +33,7 @@ const WhatOurUserSays = () => {
             <p
               data-aos="fade-in"
               data-aos-delay="100"
-              className="text-[#050404] text-[22px] md:text-[26px] lg:text-[30px] mb-1 2xl:text-[45px] 3xl:text-[56px] font-extrabold 2xl:leading-[72.8px]"
+              className="text-[#050404] text-[22px] md:text-[26px] lg:text-[30px] mb-1 2xl:text-[45px] 3xl:text-[72px] font-extrabold 2xl:leading-[72.8px]"
             >
               What Our <span className="text-[#B98D40]">Users</span> Say
             </p>
@@ -42,7 +42,7 @@ const WhatOurUserSays = () => {
               data-aos-delay="100"
               className="text-[#545454] lg:text-lg 2xl:text-2xl font-normal 2xl:leading-[45.6px]"
             >
-              We’ve helped 1.5 milion individuals enhance their experience
+              We’ve helped over 1.5 milion individuals enhance their experience
             </p>
           </div>
           {/* This is the review section */}

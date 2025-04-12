@@ -66,12 +66,15 @@ const CommonHeroBanner = () => {
     const video = videoRef.current;
     if (!video) return;
 
+    const videoDuration = video?.duration
+
+
     const handleFullscreenChange = () => {
       setIsFullscreen(!!document.fullscreenElement);
     };
 
     const handleTimeUpdate = () => {
-      if (video.currentTime >= 63 && document.fullscreenElement) {
+      if (video.currentTime >= videoDuration && document.fullscreenElement) {
         document.exitFullscreen().catch(err => {
           console.error("Error exiting fullscreen:", err);
         });
@@ -266,7 +269,7 @@ const CommonHeroBanner = () => {
               repeatType: "reverse",
               ease: [0.32, 0, 0.67, 1],
             }}
-            className="w-full max-w-[797px] h-[280px] md:h-[350px] lg:h-[400px] 3xl:h-[470px] border-[17px] 2xl:border-[19.339px] rounded-[31.771px] border-[#E2C65E] relative z-50"
+            className="w-full max-w-[797px] h-[280px] md:h-[350px] lg:h-[400px] 3xl:h-[470px] border-[12px] md:border-[17px] 2xl:border-[19.339px] rounded-[20px] md:rounded-[31.771px] border-[#E2C65E] relative z-50"
           >
             {isBusiness ? (
               <img
@@ -290,12 +293,12 @@ const CommonHeroBanner = () => {
                 >
                   <div className="mb-[10px] mr-[10px] flex flex-row gap-x-5">
                     {isUnMute ? (
-                      <GoMute
+                      <GoUnmute
                         onClick={HandleMute}
                         className="text-[24px] cursor-pointer text-white"
                       />
                     ) : (
-                      <GoUnmute
+                      <GoMute
                         onClick={HandleUnmute}
                         className="text-[24px] cursor-pointer text-white"
                       />
