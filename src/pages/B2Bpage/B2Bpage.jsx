@@ -146,14 +146,14 @@ const B2Bpage = () => {
   return (
     <div>
       <CommonHeroBanner isB2b={true} />
-      <div className="mt-[154px]">
+      <div className="mt-[20px] lg:mt-[40px] 2xl:mt-[80px] 3xl:mt-[154px]">
         <ReactMarquee
           isIndividual={false}
           imgArr={imgArr}
           gap={180}
           speed={80}
         />
-        <div className="mt-[120px] ">
+        {/* <div className="mt-[120px] ">
           <B2bTab />
         </div>
         <div className="mb-[120px]">
@@ -185,7 +185,7 @@ const B2Bpage = () => {
         </div>
         <div>
           <SwitchToSavings isBusiness={true} />
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -372,9 +372,9 @@ const Footer = () => {
         </div>
       </div>
       {/* This is the second div */}
-      <div className="bg-[#B68D40] h-16 ">
-        <div className="container flex justify-center items-center h-full px-2">
-          <p className="text-[#050404] text-[13px] font-bold leading-[21.32px]">
+      <div className="bg-[#B68D40] h-16">
+        <div className="flex justify-center items-center h-full px-2">
+          <p className="text-[#050404] text-[13px] text-center font-bold leading-[21.32px]">
             Copyright © 2025-2026 | RedGirraffe - All rights reserved
           </p>
         </div>

@@ -55,7 +55,7 @@ const Navbar = () => {
   return (
     <header
       className={`  ${isBusiness ? "bg-[#1D2526]" : "bg-[#752828]"
-        } fixed w-full top-0 left-0 h-auto py-2 2xl:py-3 px-5 lg:px-8 2xl:px-12 flex items-center z-[1000]`}
+        } fixed w-full top-0 left-0 h-auto py-2 3xl:py-3 px-5 lg:px-8 2xl:px-12 flex items-center z-[1000]`}
     >
       <nav className="flex justify-between items-center py-3 w-full">
         {/* This is the left side div */}
