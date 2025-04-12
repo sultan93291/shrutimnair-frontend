@@ -347,7 +347,7 @@ const initialState = {
     },
     {
       id: 9,
-      identifier: "Ledger-Hub ",
+      identifier: "Ledger-Hub",
       SvgColorCode: "#1F2526",
       Direction: "start",
       HighLightedTxt: "Pain Points ",
@@ -359,7 +359,7 @@ const initialState = {
       CardDetails: [
         {
           svg: "Pricingmeter",
-          subTitle: "High commercial card fees drain profits. ",
+          subTitle: "Juggling between various platforms wastes hours daily. ",
         },
         {
           svg: "DollarBag",

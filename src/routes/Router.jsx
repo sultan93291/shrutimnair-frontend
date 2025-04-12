@@ -4,6 +4,8 @@ import HomePage from "../pages/homepage/HomePage";
 import B2Bpage from "@/pages/B2Bpage/B2Bpage";
 
 
+
+
 export const router = createBrowserRouter([
   {
     path: "/",
