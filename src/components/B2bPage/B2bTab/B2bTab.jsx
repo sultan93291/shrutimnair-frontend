@@ -18,24 +18,27 @@ const TabDetails = [
       "AI driven SaaS platform that streamlines lease management & energy optimisation for businesses. It cuts chaos, saves millions of dollars - effortlessly.",
     btnTxt: "See Details",
     tabColor: "#4A3B2C",
+    mainBtnTxt: "Book a DEMO",
   },
   {
     id: 2,
     tittle: "ESG-Horizon",
     subTittle: "Intelligent ESG Management. Effortless Compliance",
     descreption:
-      "AI driven SaaS platform that streamlines lease management & energy optimisation for businesses. It cuts chaos, saves millions of dollars - effortlessly.",
+      "A sophisticated AI SaaS platform that simplifies ESG tracking for companies. It ensures compliance, clarity with ease.",
     btnTxt: "See Details",
     tabColor: "#2F5D50",
+    mainBtnTxt: "Book a DEMO",
   },
   {
     id: 3,
     tittle: "Flow-Forge",
-    subTittle: "Predictive Maintenance SaaS for Zero Downtime.",
+    subTittle: "Predictive Maintenance SaaS for Zero Downtime",
     descreption:
-      "AI driven SaaS platform that streamlines lease management & energy optimisation for businesses. It cuts chaos, saves millions of dollars - effortlessly.",
+      "SaaS platform that boosts operational efficiency for listed midcaps, small caps. It slashes downtime, maximises profits & market cap fast.",
     btnTxt: "See Details",
     tabColor: "#3B2F2A",
+    mainBtnTxt: "Book a DEMO",
   },
   {
     id: 4,
@@ -43,7 +46,7 @@ const TabDetails = [
     subTittle:
       "Powering High-Value Recurring Payments with Seamless Flexibility",
     descreption:
-      "AI driven SaaS platform that streamlines lease management & energy optimisation for businesses. It cuts chaos, saves millions of dollars - effortlessly.",
+      "A commercial card high-value recurring SaaS payment solution for banks. It streamlines B2B lending to Listed Midcaps and Small caps & to unlisted MSME’s, thereby enhancing flexibility for High value recurring payments.",
     btnTxt: "See Details",
     tabColor: "#1D1842",
   },
@@ -52,7 +55,7 @@ const TabDetails = [
     tittle: "Ledger-Hub",
     subTittle: "Revolutionising Enterprise Lease & Energy Management",
     descreption:
-      "AI driven SaaS platform that streamlines lease management & energy optimisation for businesses. It cuts chaos, saves millions of dollars - effortlessly.",
+      "A master SaaS platform that automates financial management for mid-level and small CA firms. It simplifies juggling between various accounting and compliance platforms, boosts efficiency, and ensures compliance.",
     btnTxt: "See Details",
     tabColor: "#1F2526",
   },

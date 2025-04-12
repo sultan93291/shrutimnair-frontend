@@ -162,7 +162,9 @@ const CommonHeroBanner = () => {
             <div ref={subtitleRef}>
               <div className="line">
                 <h2 className="text-[#F2DFD7] md:text-lg xl:text-xl font-normal leading-8">
-                  Rent, Fees, Society Charges + Rs 3,000/Month in CASH Points
+                  {isBusiness
+                    ? "Streamline leases, ESG, workflows, payments, and more"
+                    : "Rent, Fees, Society Charges + Rs 3,000/Month in CASH Points"}
                 </h2>
               </div>
             </div>
