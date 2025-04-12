@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { motion } from "framer-motion";
 
@@ -14,6 +14,9 @@ import { setIsBusinessActive } from "@/redux/features/businessSlice";
 import { useLocation, useNavigate } from "react-router-dom";
 import { ReviewData } from "@/ReviewData/ReviewData";
 import hero from "../../assets/hero.png";
+import { GoUnmute } from "react-icons/go";
+import { GoMute } from "react-icons/go";
+import { MdFullscreen } from "react-icons/md";
 
 const CommonHeroBanner = () => {
   const subtitleRef = useRef(null);
@@ -21,10 +24,82 @@ const CommonHeroBanner = () => {
   const divRef = useRef(null);
   const gsapContainerRef = useRef(null);
   const navigate = useNavigate();
-
+  const videoRef = useRef();
   const dispatch = useDispatch();
+  const [isUnMute, setIsUnMute] = useState(false);
+  const [isFullscreen, setIsFullscreen] = useState(false);
 
-  console.log(heroVideo, "this is the");
+  const HandleUnmute = () => {
+    if (videoRef.current) {
+      videoRef.current.muted = false;
+      setIsUnMute(true);
+    }
+  };
+
+  const HandleMute = () => {
+    if (videoRef.current) {
+      videoRef.current.muted = true;
+      setIsUnMute(false);
+    }
+  };
+
+  const handleFullscreen = () => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    // Always restart from beginning
+    video.currentTime = 0;
+    video.play();
+
+    if (document.fullscreenElement) {
+      document.exitFullscreen();
+    } else if (video.requestFullscreen) {
+      video.requestFullscreen().catch(err => {
+        console.error("Error trying to enable fullscreen:", err);
+      });
+    } else if (video.webkitRequestFullscreen) {
+      video.webkitRequestFullscreen();
+    }
+  };
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    const handleFullscreenChange = () => {
+      setIsFullscreen(!!document.fullscreenElement);
+    };
+
+    const handleTimeUpdate = () => {
+      if (video.currentTime >= 63 && document.fullscreenElement) {
+        document.exitFullscreen().catch(err => {
+          console.error("Error exiting fullscreen:", err);
+        });
+        video.currentTime = 0;
+        video.play();
+      }
+    };
+
+    const handleEnded = () => {
+      if (document.fullscreenElement) {
+        document.exitFullscreen().catch(err => {
+          console.error("Error exiting fullscreen:", err);
+        });
+      }
+      video.currentTime = 0;
+      video.play();
+    };
+
+    document.addEventListener("fullscreenchange", handleFullscreenChange);
+    video.addEventListener("timeupdate", handleTimeUpdate);
+    video.addEventListener("ended", handleEnded);
+
+    return () => {
+      document.removeEventListener("fullscreenchange", handleFullscreenChange);
+      video.removeEventListener("timeupdate", handleTimeUpdate);
+      video.removeEventListener("ended", handleEnded);
+    };
+  }, []);
 
   const isBusiness = useSelector(
     state => state.businessReducer.isBusinessActive
@@ -33,8 +108,6 @@ const CommonHeroBanner = () => {
   const commonFeatureData = useSelector(
     state => state.tabReducer.ActiveFeatureData
   );
-
-  console.log(commonFeatureData, "this is the common feature data");
 
   const location = useLocation();
 
@@ -102,8 +175,6 @@ const CommonHeroBanner = () => {
     };
   }, [isBusiness]);
 
-  console.log(ReviewData, "this is the review data");
-
   useEffect(() => {
     if (location.pathname === "/") {
       dispatch(setIsBusinessActive(false));
@@ -114,8 +185,9 @@ const CommonHeroBanner = () => {
 
   return (
     <section
-      className={`px-5 lg:px-10 4xl:px-14 pt-8 pb-10 lg:py-12 xl:py-28 2xl:py-32 3xl:py-36 ${isBusiness ? "bg-[#1D2526]" : "bg-[#752828]"
-        } xl:rounded-b-[50px] 2xl:rounded-b-[80px]`}
+      className={`px-5 lg:px-10 4xl:px-14 pt-8 pb-10 lg:py-12 xl:py-28 2xl:py-32 3xl:py-36 ${
+        isBusiness ? "bg-[#1D2526]" : "bg-[#752828]"
+      } xl:rounded-b-[50px] 2xl:rounded-b-[80px]`}
     >
       <div className="flex items-center flex-col xl:flex-row gap-8 xl:gap-0">
         {/* Left Side */}
@@ -203,14 +275,38 @@ const CommonHeroBanner = () => {
                 className="object-cover absolute top-0 left-0 h-full w-full rounded-[11px] shadow-lg"
               />
             ) : (
-              <video
-                className="object-cover absolute top-0 left-0 h-full w-full rounded-[11px] shadow-lg"
-                src={heroVideo}
-                autoPlay
-                loop
-                playsInline
-                muted
-              ></video>
+              <div className="h-full w-full relative">
+                <video
+                  ref={videoRef}
+                  className="object-cover relative h-full w-full rounded-[11px] shadow-lg"
+                  src={heroVideo}
+                  autoPlay
+                  playsInline
+                  muted={!isUnMute}
+                />
+                <div
+                  onDoubleClick={handleFullscreen}
+                  className="h-full absolute top-0 left-0 flex items-end justify-end z-[99] w-full"
+                >
+                  <div className="mb-[10px] mr-[10px] flex flex-row gap-x-5">
+                    {isUnMute ? (
+                      <GoMute
+                        onClick={HandleMute}
+                        className="text-[24px] cursor-pointer text-white"
+                      />
+                    ) : (
+                      <GoUnmute
+                        onClick={HandleUnmute}
+                        className="text-[24px] cursor-pointer text-white"
+                      />
+                    )}
+                    <MdFullscreen
+                      className="text-[24px] cursor-pointer text-white"
+                      onClick={handleFullscreen}
+                    />
+                  </div>
+                </div>
+              </div>
             )}
 
             {/* Survey Tab */}
