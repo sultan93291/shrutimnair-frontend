@@ -126,7 +126,7 @@ const Footer = () => {
               </li>
               <li data-aos="fade-up" data-aos-delay="100">
                 <a href="#" className="text-[#E6E6E6] leading-[23.8px]">
-                  An Bribery Policy
+                  Anti corruption & Bribery Policy
                 </a>
               </li>
               <li data-aos="fade-up" data-aos-delay="100">
@@ -310,7 +310,7 @@ const Footer = () => {
             </div>
 
             {/* This is the button section */}
-            <div className="mt-5 relative w-[280px] h-12">
+            <div className="mt-5 relative w-[320px] h-12">
               <input
                 data-aos="fade-up"
                 data-aos-delay="100"
@@ -372,7 +372,7 @@ const Footer = () => {
         </div>
       </div>
       {/* This is the second div */}
-      <div className="bg-[#B68D40] h-16">
+      <div className="bg-[#B68D40] h-12">
         <div className="flex justify-center items-center h-full px-2">
           <p className="text-[#050404] text-[13px] text-center font-bold leading-[21.32px]">
             Copyright © 2025-2026 | RedGirraffe - All rights reserved

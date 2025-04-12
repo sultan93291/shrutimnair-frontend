@@ -35,14 +35,14 @@ const B2bPrice = () => {
             </span>
           </div>
         ) : (
-          <div className="flex flex-col gap-y-12">
-            <div className="flex flex-col gap-y-6 items-center justify-center w-full ">
-              <h4 className="text-[56px] font-bold leading-[140%] text-[#B68D40] text-center">
-                Lease-Core{" "}
-                <span className="text-[#050404]">
+          <div className="flex flex-col gap-y-16">
+            <div className="flex flex-col gap-y-2 items-center justify-center w-full ">
+              <h4 className="text-[56px] font-bold text-[#050404] leading-[140%]  text-center">
+                <span className="text-[#B68D40]">
                   {" "}
                   {ActivePricingData?.HighlightTittle}{" "}
                 </span>
+                Pricing Tiers
               </h4>
               <div className="flex flex-col gap-y-[17.5px] ">
                 <span className="text-2xl font-normal  leading-[140%] text-[#545454] text-center">

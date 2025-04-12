@@ -1,6 +1,6 @@
 import Marquee from "react-fast-marquee";
 
-const ReactMarquee = ({ isIndividual, imgArr, gap = 200, speed = 50 }) => {
+const ReactMarquee = ({ isIndividual, imgArr, gap = 400, speed = 100 }) => {
   return (
     <section>
       <div className="flex flex-col gapy-8 md:gap-y-10 2xl:gap-y-14 3xl:gap-y-[100px] ">
@@ -8,7 +8,7 @@ const ReactMarquee = ({ isIndividual, imgArr, gap = 200, speed = 50 }) => {
           <p
             data-aos="fade-up"
             data-aos-delay="100"
-            className="text-center text-[#050404] text-[22px] md:text-[26px] lg:text-[30px] 2xl:text-[45px] 3xl:text-[60px] font-extrabold leading-[78.4px]"
+            className="text-center text-[#050404] text-[22px] md:text-[26px] lg:text-[30px] 2xl:text-[45px] 3xl:text-[84px] font-extrabold leading-[78.4px]"
           >
             We Are <span className="text-[#E2C65E]">Live</span> On
           </p>
@@ -16,7 +16,7 @@ const ReactMarquee = ({ isIndividual, imgArr, gap = 200, speed = 50 }) => {
           <p
             data-aos="fade-up"
             data-aos-delay="100"
-            className="text-center text-[#050404] text-[56px] font-extrabold leading-[78.4px]"
+            className="text-center text-[#050404] text-[84px] font-extrabold leading-[78.4px]"
           >
             <span className="text-[#E2C65E]">Trusted </span> By Industry Leaders
           </p>
@@ -38,7 +38,7 @@ const ReactMarquee = ({ isIndividual, imgArr, gap = 200, speed = 50 }) => {
                   {/* Add a duplicate of the images to create the seamless looping effect */}
                   {[...images, ...images].map((img, index) => (
                     <img
-                      className="h-[40px] 3xl:h-[70px] max-w-[140px] lg:max-w-[180px] 3xl:max-w-[280px] w-auto object-contain"
+                      className="h-[40px] 3xl:h-[100px] max-w-[140px] lg:max-w-[180px] 3xl:max-w-[280px] w-auto object-contain"
                       key={index}
                       src={img}
                       alt={`Live platform ${index + 1}`}

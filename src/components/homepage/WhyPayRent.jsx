@@ -8,7 +8,7 @@ const WhyPayRent = () => {
         <p
           data-aos="fade-up"
           data-aos-delay="100"
-          className="text-[#050404] text-[22px] md:text-[26px] lg:text-[30px] 2xl:text-[45px] 3xl:text-[56px] font-extrabold xl:leading-[72.8px] text-center max-w-[546px] mx-auto"
+          className="text-[#050404] text-[22px] md:text-[26px] lg:text-[30px] 2xl:text-[45px] 3xl:text-[72px] font-extrabold xl:leading-[102.8px] text-center max-w-[846px] mx-auto"
         >
           Why Pay <span className="text-[#B68D40]">Rent, Fees</span> &{" "}
           <span className="text-[#B68D40]">Bills</span> With Us?
@@ -20,7 +20,7 @@ const WhyPayRent = () => {
             <WhyPayRentLeftSide />
           </div>
           {/* This is the right side div */}
-          <div className="border-l rounded-r-[42.6px]  border-[#54545] flex-1 pb-7  xl:py-7 2xl:py-10 px-5 xl:px-8 2xl:px-12 3xl:px-16 bg-[linear-gradient(180deg,_rgba(255,_217,_114,_0.09)_0%,_rgba(255,_217,_114,_0)_100%)]">
+          <div className="border-l xl:rounded-r-[42.6px]  border-[#54545] flex-1 pb-7  xl:py-7 2xl:py-10 px-5 xl:px-8 2xl:px-12 3xl:px-16 bg-[linear-gradient(180deg,_rgba(255,_217,_114,_0.09)_0%,_rgba(255,_217,_114,_0)_100%)]">
             <WhyPayRentRightSide />
           </div>
         </div>
