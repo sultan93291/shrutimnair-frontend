@@ -26,7 +26,7 @@ const initialState = {
         },
         {
           title: "Silver",
-          subTittle: "Most Demandable",
+          subTittle: "Leases Covered - 251 to 500",
           btnTxt: "Most Demandable",
           pricePerMinute: "$4,000/m",
           pricingSubTitle: "All Bronze + Energy usage reports, Priority chat",
@@ -40,7 +40,7 @@ const initialState = {
           title: "Gold",
           subTittle: "Leases Covered - 501 to 1,000",
           btnTxt: "Most Elegeant",
-          pricePerMinute: "$2,500/m",
+          pricePerMinute: "$6,000/m",
           pricingSubTitle:
             "All Silver + Compliance automation, Dedicated manager",
           HotDetails: [
@@ -78,9 +78,9 @@ const initialState = {
           pricingSubTitle:
             "Tracking for Scope 1, 2, and basic Scope 3. Basic reporting for compliance. Email support (9-5).",
           HotDetails: [
-            "Potential Savings - Staff time savings: USD 5,000/month. Energy savings: 5% of total energy cost ",
-            "Net Savings - 17,312.50/m",
-            "ROI - 5.77X",
+            "Potential Savings - Staff time savings: USD 5,000/month. Energy savings: 5% of total energy cost",
+            "Net Savings - Approximately USD 17,312.50/month",
+            "ROI - ~5.77X",
           ],
         },
         {
@@ -92,8 +92,8 @@ const initialState = {
             "All Bronze features. Detailed Scope 3 tracking and investment mapping. Priority chat support.",
           HotDetails: [
             "Potential Savings - Staff time savings: USD 10,000/month. Energy savings: 5% of total energy cost",
-            "Net Savings - $35,625/m",
-            "ROI - 7.13X",
+            "Net Savings - Approximately USD 35,625/month",
+            "ROI - ~7.13X",
           ],
         },
         {
@@ -105,8 +105,8 @@ const initialState = {
             "All Silver features. Investment analysis tools. Benchmarking capabilities. Dedicated account manager",
           HotDetails: [
             "Potential Savings - Staff time savings: USD 20,000/month. Energy savings: 5% of total energy cost",
-            "Net Savings - $73,250/m",
-            "ROI - 9.16X",
+            "Net Savings - Approximately USD 73,250/month",
+            "ROI - ~9.16X",
           ],
         },
         {
@@ -136,13 +136,13 @@ const initialState = {
           title: "Bronze",
           subTittle: "Suitable For: Up to 20 critical assets or processes",
           btnTxt: "Most Popular",
-          pricePerMinute: "$150,000/m",
+          pricePerMinute: "$150,000",
           pricingSubTitle: "One-Time Development Cost",
           HotDetails: [
-            "Monthly Maintenance Cost: USD 8,000  ",
+            "Monthly Maintenance Cost: USD 8,000",
             "Expected Annual Savings - Up to USD 1 million",
-            "First-Year ROI - 3.06X",
-            "Subsequent Years ROI - 9.46X",
+            "First-Year ROI - ~3.06X",
+            "Subsequent Years ROI - ~9.46X",
           ],
         },
         {
@@ -152,24 +152,24 @@ const initialState = {
           pricePerMinute: "$300,000",
           pricingSubTitle: "One-Time Development Cost",
           HotDetails: [
-            "Monthly Maintenance Cost: USD 15,000 ",
+            "Monthly Maintenance Cost: USD 15,000",
             "Expected Annual Savings - Up to USD 2 million",
-            "First-Year ROI - 3.17X",
-            "Subsequent Years ROI - 10.67X",
+            "First-Year ROI - ~3.17X",
+            "Subsequent Years ROI - ~10.67X",
           ],
         },
         {
           title: "Gold",
           subTittle: "Suitable For: 51-100 critical assets or processes",
           btnTxt: "Most Elegeant",
-          pricePerMinute: "$500,000/m",
+          pricePerMinute: "$500,000",
           pricingSubTitle:
             "All Silver features. Investment analysis tools. Benchmarking capabilities. Dedicated account manager",
           HotDetails: [
             "Monthly Maintenance Cost: USD 25,000",
             "Expected Annual Savings - Up to USD 4 million",
-            "First-Year ROI - 3.75X",
-            "Subsequent Years ROI - 12.33X",
+            "First-Year ROI - ~3.75X",
+            "Subsequent Years ROI - ~12.33X",
           ],
         },
         {
@@ -180,7 +180,7 @@ const initialState = {
           pricingSubTitle:
             "All Gold features. Full benchmarking suite with advanced analytics. 24/7 phone support. Customizable features and reports",
           HotDetails: [
-            "Monthly Maintenance Cost: Custom  ",
+            "Monthly Maintenance Cost: Custom",
             "Expected Annual Savings - Custom",
             "First-Year ROI - Custom",
             "Subsequent Years ROI - Custom",
@@ -195,7 +195,7 @@ const initialState = {
       ExtraSubtitle:
         "The pricing tiers are designed for mid-level and small CA firms, based on the number of clients managed, with savings from AI-driven productivity gains:",
       isNote: true,
-      Note: "Savings are based on an average accountant salary of $30,000/year. For Bronze Tier, saving 1 accountant yields $30,000/year, offering a 12.9X ROI. Actual savings and ROI may vary depending on firm size and",
+      Note: "Savings are based on an average accountant salary of $30,000/year. For Bronze Tier, saving 1 accountant yields $30,000/year, offering a 12.9X ROI. Actual savings and ROI may vary depending on firm size and implementation.",
       AvailablePackage: [
         {
           title: "Bronze",
@@ -215,21 +215,21 @@ const initialState = {
           title: "Silver",
           subTittle: "Target Firm Size - 5-15 staff",
           btnTxt: "Most Demandable",
-          pricePerMinute: "$584/m",
+          pricePerMinute: "$324/m",
           HotDetails: [
             "Users Included - 15",
             "Client Portal Access - 250 clients",
             "Accountants Saved - 2 accountants",
             "Savings (USD/year) - $60,000",
             "Annual Cost (USD) - $3,888",
-            "ROI - 15.8X",
+            "ROI - 15.4X",
           ],
         },
         {
           title: "Gold",
           subTittle: "Target Firm Size - 15-50 staff",
           btnTxt: "Most Elegeant",
-          pricePerMinute: "$2,500/m",
+          pricePerMinute: "$584/m",
           pricingSubTitle:
             "All Silver + Compliance automation, Dedicated manager",
           HotDetails: [
@@ -245,15 +245,15 @@ const initialState = {
           title: "Platinum",
           subTittle: "Target Firm Size - 50+ staff or custom needs",
           btnTxt: "Fully Customizable",
-          pricePerMinute: "Price on Application",
+          pricePerMinute: "Contact us",
           pricingSubTitle: "All Gold + Budget forecasting tools, 10/7 support",
           HotDetails: [
             "Users Included - Unlimited",
             "Client Portal Access - Unlimited",
-            "Accountants Saved - Unlimited",
-            "Savings (USD/year) - Unlimited",
-            "Annual Cost (USD) - Unlimited",
-            "ROI - Unlimited",
+            "Accountants Saved - Custom",
+            "Savings (USD/year) - Custom",
+            "Annual Cost (USD) - Custom",
+            "ROI - Custom",
           ],
         },
       ],

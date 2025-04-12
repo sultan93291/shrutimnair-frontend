@@ -153,7 +153,7 @@ const B2Bpage = () => {
           gap={180}
           speed={80}
         />
-        {/* <div className="mt-[120px] ">
+        <div className="mt-[120px] ">
           <B2bTab />
         </div>
         <div className="mb-[120px]">
@@ -185,7 +185,7 @@ const B2Bpage = () => {
         </div>
         <div>
           <SwitchToSavings isBusiness={true} />
-        </div> */}
+        </div>
       </div>
     </div>
   );

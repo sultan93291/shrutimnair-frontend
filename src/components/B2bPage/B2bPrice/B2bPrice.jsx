@@ -28,12 +28,10 @@ const B2bPrice = () => {
               data-aos-delay="100"
               className="text-[24px] text-left leading-[190%] font-normal max-w-[723px] pt-[9px]   text-[#545454] "
             >
-              Pay-Pulse Commercial Credit Card Plan – You may need to check the
-              applicable pricing from your Card issuing bank. Pricing is subject
-              to a commercial arrangement between your bank and RedGirraffe or
-              its authorized PSPs. Contact your commercial bank to confirm your
-              RedGirraffe Pay-Pulse Commercial Credit Card High value recurring
-              rates on Visa and MasterCard.
+              Pricing is subject to a commercial arrangement between your bank
+              and RedGirraffe or its authorized PSPs. Contact your commercial
+              bank to confirm your RedGirraffe Pay-Pulse Commercial Credit Card
+              High value recurring rates on Visa and MasterCard.
             </span>
           </div>
         ) : (

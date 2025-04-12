@@ -8,6 +8,11 @@ import {
 } from "@/redux/features/tabdataSlice";
 import { useDispatch } from "react-redux";
 import { setActivePricingTears } from "@/redux/features/PricingSlice";
+import lease from "../../../assets/videos/RedGirraffe Lease-Core (1).mp4";
+import esg_horiozon from "../../../assets/videos/RedGirraffe ESG-Horizon (1).mp4";
+import flow_forge from "../../../assets/videos/RedGirraffe Flow-Forge (3).mp4";
+import pay_pulse from "../../../assets/videos/Video Pay-Pulse(1) (1) (3).mp4";
+import ledger_hub from "../../../assets/videos/RedGirraffe Ledger-Hub (1).mp4";
 
 const TabDetails = [
   {
@@ -19,6 +24,7 @@ const TabDetails = [
     btnTxt: "See Details",
     tabColor: "#4A3B2C",
     mainBtnTxt: "Book a DEMO",
+    videoLink: lease,
   },
   {
     id: 2,
@@ -29,6 +35,7 @@ const TabDetails = [
     btnTxt: "See Details",
     tabColor: "#2F5D50",
     mainBtnTxt: "Book a DEMO",
+    videoLink: esg_horiozon,
   },
   {
     id: 3,
@@ -38,7 +45,8 @@ const TabDetails = [
       "SaaS platform that boosts operational efficiency for listed midcaps, small caps. It slashes downtime, maximises profits & market cap fast.",
     btnTxt: "See Details",
     tabColor: "#3B2F2A",
-    mainBtnTxt: "Book a DEMO",
+    mainBtnTxt: "Register Interest ",
+    videoLink: flow_forge,
   },
   {
     id: 4,
@@ -49,15 +57,19 @@ const TabDetails = [
       "A commercial card high-value recurring SaaS payment solution for banks. It streamlines B2B lending to Listed Midcaps and Small caps & to unlisted MSME’s, thereby enhancing flexibility for High value recurring payments.",
     btnTxt: "See Details",
     tabColor: "#1D1842",
+    mainBtnTxt: "Register Interest ",
+    videoLink: pay_pulse,
   },
   {
     id: 5,
     tittle: "Ledger-Hub",
-    subTittle: "Revolutionising Enterprise Lease & Energy Management",
+    subTittle: "Automating Finances, Elevating Compliance",
     descreption:
       "A master SaaS platform that automates financial management for mid-level and small CA firms. It simplifies juggling between various accounting and compliance platforms, boosts efficiency, and ensures compliance.",
     btnTxt: "See Details",
     tabColor: "#1F2526",
+    mainBtnTxt: "Book a DEMO",
+    videoLink: ledger_hub,
   },
 ];
 
@@ -131,7 +143,7 @@ const B2bTab = () => {
             <span className="text-[24px] text-white leading-[190%] font-normal max-w-[729px]  ">
               {ActiveTab.descreption}
             </span>
-            <ButtonAndArrow buttonText={"Book a demo"} />
+            <ButtonAndArrow buttonText={ActiveTab.mainBtnTxt} />
           </div>
           <div className="flex-1 absolute mt-[297px]  ">
             <motion.figure
@@ -153,7 +165,7 @@ const B2bTab = () => {
             >
               <video
                 className="object-cover absolute top-0 left-0 h-full w-full rounded-[11px] shadow-lg"
-                src={heroVideo}
+                src={ActiveTab.videoLink}
                 autoPlay
                 loop
                 muted
