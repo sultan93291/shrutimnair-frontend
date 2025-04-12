@@ -114,9 +114,8 @@ const CommonHeroBanner = () => {
 
   return (
     <section
-      className={`px-5 lg:px-10 4xl:px-14 pt-8 pb-10 lg:py-12 xl:py-32 2xl:py-36 ${
-        isBusiness ? "bg-[#1D2526]" : "bg-[#752828]"
-      } xl:rounded-b-[50px] 2xl:rounded-b-[80px]`}
+      className={`px-5 lg:px-10 4xl:px-14 pt-8 pb-10 lg:py-12 xl:py-28 2xl:py-32 3xl:py-36 ${isBusiness ? "bg-[#1D2526]" : "bg-[#752828]"
+        } xl:rounded-b-[50px] 2xl:rounded-b-[80px]`}
     >
       <div className="flex items-center flex-col xl:flex-row gap-8 xl:gap-0">
         {/* Left Side */}
@@ -135,10 +134,10 @@ const CommonHeroBanner = () => {
             <p className="text-[#FFF] text-lg lg:text-[22px]">Business</p>
           </div>
 
-          <div className="mt-5 2xl:mt-12 space-y-1 lg:space-y-3">
+          <div className="mt-5 3xl:mt-12 space-y-1 lg:space-y-3">
             <div
               ref={gsapContainerRef}
-              className="gsap-container text-[22px] md:text-[28px] lg:text-[32px] xl:text-[40px] 2xl:text-[60px] 4xl:text-[80px] font-extrabold 2xl:leading-[80px] 4xl:leading-[102px] text-[#F2DFD7]"
+              className="gsap-container text-[22px] md:text-[28px] lg:text-[32px] xl:text-[40px] 3xl:text-[60px] 4xl:text-[80px] font-extrabold 3xl:leading-[80px] 4xl:leading-[102px] text-[#F2DFD7]"
             >
               <div className="line">
                 <h1>
@@ -193,7 +192,7 @@ const CommonHeroBanner = () => {
               repeatType: "reverse",
               ease: [0.32, 0, 0.67, 1],
             }}
-            className="w-full max-w-[797px] h-[280px] md:h-[350px] lg:h-[400px] 2xl:h-[470px] border-[17px] 2xl:border-[19.339px] rounded-[31.771px] border-[#E2C65E] relative z-50"
+            className="w-full max-w-[797px] h-[280px] md:h-[350px] lg:h-[400px] 3xl:h-[470px] border-[17px] 2xl:border-[19.339px] rounded-[31.771px] border-[#E2C65E] relative z-50"
           >
             {isBusiness ? (
               <img
