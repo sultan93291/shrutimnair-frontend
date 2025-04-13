@@ -1,5 +1,5 @@
 import ButtonAndArrow from "@/components/common/ButtonAndArrow";
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import heroVideo from "../../../assets/videos/hero_video.mp4";
 import {
@@ -13,6 +13,8 @@ import esg_horiozon from "../../../assets/videos/RedGirraffe ESG-Horizon (1).mp4
 import flow_forge from "../../../assets/videos/RedGirraffe Flow-Forge (3).mp4";
 import pay_pulse from "../../../assets/videos/Video Pay-Pulse(1) (1) (3).mp4";
 import ledger_hub from "../../../assets/videos/RedGirraffe Ledger-Hub (1).mp4";
+import { MdFullscreen } from "react-icons/md";
+import { GoMute, GoUnmute } from "react-icons/go";
 
 const TabDetails = [
   {
@@ -77,6 +79,83 @@ const B2bTab = () => {
   const [ActiveTabId, setActiveTabId] = useState(TabDetails[0].id);
   const [ActiveTab, setActiveTab] = useState(TabDetails[0]);
   const dispatch = useDispatch();
+  const [isUnMute, setIsUnMute] = useState(false);
+  const [isFullscreen, setIsFullscreen] = useState(false);
+  const videoRef = useRef();
+
+  const HandleUnmute = () => {
+    if (videoRef.current) {
+      videoRef.current.muted = false;
+      setIsUnMute(true);
+    }
+  };
+
+  const HandleMute = () => {
+    if (videoRef.current) {
+      videoRef.current.muted = true;
+      setIsUnMute(false);
+    }
+  };
+
+  const handleFullscreen = () => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    // Always restart from beginning
+    video.currentTime = 0;
+    video.play();
+
+    if (document.fullscreenElement) {
+      document.exitFullscreen();
+    } else if (video.requestFullscreen) {
+      video.requestFullscreen().catch(err => {
+        console.error("Error trying to enable fullscreen:", err);
+      });
+    } else if (video.webkitRequestFullscreen) {
+      video.webkitRequestFullscreen();
+    }
+  };
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    const videoDuration = video?.duration;
+
+    const handleFullscreenChange = () => {
+      setIsFullscreen(!!document.fullscreenElement);
+    };
+
+    const handleTimeUpdate = () => {
+      if (video.currentTime >= videoDuration && document.fullscreenElement) {
+        document.exitFullscreen().catch(err => {
+          console.error("Error exiting fullscreen:", err);
+        });
+        video.currentTime = 0;
+        video.play();
+      }
+    };
+
+    const handleEnded = () => {
+      if (document.fullscreenElement) {
+        document.exitFullscreen().catch(err => {
+          console.error("Error exiting fullscreen:", err);
+        });
+      }
+      video.currentTime = 0;
+      video.play();
+    };
+
+    document.addEventListener("fullscreenchange", handleFullscreenChange);
+    video.addEventListener("timeupdate", handleTimeUpdate);
+    video.addEventListener("ended", handleEnded);
+
+    return () => {
+      document.removeEventListener("fullscreenchange", handleFullscreenChange);
+      video.removeEventListener("timeupdate", handleTimeUpdate);
+      video.removeEventListener("ended", handleEnded);
+    };
+  }, []);
 
   return (
     <div className="flex flex-col gap-y-[96px] pb-[525px] ">
@@ -163,14 +242,38 @@ const B2bTab = () => {
               }}
               className="w-[1633px] h-[831px] border-[19.339px] rounded-[31.771px] border-[#E2C65E] relative z-50"
             >
-              <video
-                className="object-cover absolute top-0 left-0 h-full w-full rounded-[11px] shadow-lg"
-                src={ActiveTab.videoLink}
-                autoPlay
-                loop
-                muted
-                playsInline
-              ></video>
+              <div className="h-full w-full relative">
+                <video
+                  ref={videoRef}
+                  className="object-cover relative h-full w-full rounded-[11px] shadow-lg"
+                  src={ActiveTab.videoLink}
+                  autoPlay
+                  playsInline
+                  muted={!isUnMute}
+                />
+                <div
+                  onDoubleClick={handleFullscreen}
+                  className="h-full absolute top-0 left-0 flex items-end justify-end z-[99] w-full"
+                >
+                  <div className="mb-[10px] mr-[10px] flex flex-row gap-x-5">
+                    {isUnMute ? (
+                      <GoUnmute
+                        onClick={HandleMute}
+                        className="text-[24px] cursor-pointer text-white"
+                      />
+                    ) : (
+                      <GoMute
+                        onClick={HandleUnmute}
+                        className="text-[24px] cursor-pointer text-white"
+                      />
+                    )}
+                    <MdFullscreen
+                      className="text-[24px] cursor-pointer text-white"
+                      onClick={handleFullscreen}
+                    />
+                  </div>
+                </div>
+              </div>
             </motion.figure>
           </div>
         </div>
