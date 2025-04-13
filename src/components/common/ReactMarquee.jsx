@@ -34,7 +34,7 @@ const ReactMarquee = ({ isIndividual, imgArr, gap = 400, speed = 100 }) => {
                 direction={`${index === 0 ? "left" : "right"}`}
                 speed={speed}
               >
-                <div className={`flex 3xl:mx-[60px]`} style={{ gap: `${gap}px` }}>
+                <div className="flex mx-[60px]" style={{ gap: `${gap}px` }}>
                   {/* Add a duplicate of the images to create the seamless looping effect */}
                   {[...images, ...images].map((img, index) => (
                     <img
