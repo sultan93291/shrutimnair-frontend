@@ -3,12 +3,12 @@ import WhyPayRentRightSide from "./WhyPayRentRightSide";
 
 const WhyPayRent = () => {
   return (
-    <section className="xl:rounded-b-[50px] 2xl:rounded-b-[80px] xl:rounded-t-[50px] 2xl:rounded-t-[80px] bg-[#FFF] shadow-[0px_8px_32px_2px_rgba(0,0,0,0.12)] py-10 xl:py-12 2xl:py-16 3xl:py-[120px] px-5 xl:px-12 2xl:px-[80px] 3xl:px-[150px] 4xl:px-[216px] xl:mx-[30px] 4xl:mx-[56px]">
+    <section className="xl:rounded-b-[50px] 2xl:rounded-b-[80px] xl:rounded-t-[50px] 2xl:rounded-t-[80px] bg-[#FFF] shadow-[0px_8px_32px_2px_rgba(0,0,0,0.12)] py-10 xl:py-12 2xl:py-16 3xl:py-[20] 4xl:py-[120px] px-5 xl:px-12 2xl:px-[80px] 3xl:px-[150px] 4xl:px-[216px] xl:mx-[30px] 4xl:mx-[56px]">
       <div>
         <p
           data-aos="fade-up"
           data-aos-delay="100"
-          className="text-[#050404] text-[22px] md:text-[26px] lg:text-[30px] 2xl:text-[45px] 3xl:text-[72px] font-extrabold xl:leading-[102.8px] text-center max-w-[846px] mx-auto"
+          className="text-[#050404] text-[32px] md:text-[40px] 2xl:text-[45px]  4xl:text-[72px] font-extrabold 4xl:leading-[102.8px] text-center md:max-w-[370px] lg:max-w-[480px] 4xl:max-w-[846px] mx-auto"
         >
           Why Pay <span className="text-[#B68D40]">Rent, Fees</span> &{" "}
           <span className="text-[#B68D40]">Bills</span> With Us?

@@ -158,8 +158,8 @@ const B2bTab = () => {
   }, []);
 
   return (
-    <div className="flex flex-col gap-y-[96px] pb-[525px] ">
-      <div className="flex flex-row gap-x-[30px] w-full items-center justify-center">
+    <div className="flex flex-col gap-y-[48px] xl:gap-y-[96px] pb-[226.5px] xl:pb-[525px] ">
+      <div className="flex flex-row flex-wrap gap-[12px]  xl:gap-x-[30px] w-full items-center justify-center">
         {TabDetails.map((item, index) => {
           return (
             <div
@@ -170,13 +170,13 @@ const B2bTab = () => {
                 }`,
                 transition: "background-color 0.5s ease, color 0.5s ease", // Add transition
               }}
-              className={`h-auto w-[338px] rounded-[31.1px] shadow-TabShadow flex flex-col gap-y-[36.87px] items-center justify-center py-[67.8px] transition-colors duration-500`} // Added transition classes
+              className={`h-auto w-[160px] 2xl:w-[338px] rounded-[15px] xl:rounded-[31.1px] shadow-TabShadow flex flex-col gap-y-2 2xl:gap-y-[36.87px] items-center justify-center 2xl:py-[67.8px] py-5 px-1 transition-colors duration-500`} // Added transition classes
             >
               <h2
                 style={{
-                  transition: "color 0.5s ease", // Add transition for text color
+                  transition: "color 0.5s ease",
                 }}
-                className={`text-[32px] font-extrabold leading-[130%] ${
+                className={` text-lg 2xl:text-[32px] font-extrabold leading-[130%] ${
                   item.id === ActiveTabId ? "text-[#FFF]" : "text-[#050404]"
                 }`}
               >
@@ -190,9 +190,10 @@ const B2bTab = () => {
                   dispatch(SetActiveFeatureData(item.tittle));
                   dispatch(setActivePricingTears(item.tittle));
                 }}
-                className="mt-12 transition-opacity duration-300 hover:opacity-80" // Optional: Add button hover effect
+                className=" mt-3 xl:mt-12 transition-opacity duration-300 hover:opacity-80" // Optional: Add button hover effect
               >
                 <ButtonAndArrow
+                  isHidden={true}
                   txtColor={ActiveTabId === item.id ? "#050404" : "#FFF"}
                   bgColor={ActiveTabId === item.id ? "#E2C65E" : "#1D2526"}
                   buttonText={item.btnTxt}
@@ -202,29 +203,29 @@ const B2bTab = () => {
           );
         })}
       </div>
-      <div className="px-[50px]">
+      <div className="xl:px-[50px]">
         <div
-          className={`w-full h-[801px] rounded-[50px] ease-in duration-300 py-[91px] px-[92px] flex flex-row justify-between gap-x-[137px] relative   `}
+          className={`w-full xl:h-[801px] xl:rounded-[50px] ease-in duration-300 py-[45.5px] xl:py-[91px] px-[20px] xl:px-[92px] flex flex-col xl:flex-row justify-between gap-y-4 gap-x-[137px] relative   `}
           style={{
             backgroundColor: `${ActiveTab.tabColor}`,
           }}
         >
-          <div className="flex flex-col gap-y-[21px] ">
-            <h2 className="text-[56px] text-white leading-[130%] font-extrabold  ">
+          <div className="flex flex-col gap-y-[11.5px] xl:gap-y-[21px] ">
+            <h2 className=" text-[36px] xl:text-[56px] text-white leading-[130%] font-extrabold  ">
               {" "}
               {ActiveTab.tittle}{" "}
             </h2>
-            <span className="text-[24px] text-white leading-[190%] font-normal text-nowrap  ">
+            <span className=" text-lg xl:text-[24px] text-white leading-[160%] xl:leading-[190%] font-normal xl:text-nowrap  ">
               {ActiveTab.subTittle}
             </span>
           </div>
           <div className="flex flex-col gap-y-[28px] ">
-            <span className="text-[24px] text-white leading-[190%] font-normal max-w-[729px]  ">
+            <span className=" text-lg xl:text-[24px] text-white xl:leading-[190%] font-normal max-w-[729px]  ">
               {ActiveTab.descreption}
             </span>
             <ButtonAndArrow buttonText={ActiveTab.mainBtnTxt} />
           </div>
-          <div className="flex-1 absolute mt-[297px]  ">
+          <div className="xl:flex-1  absolute bottom-0 mb-[-250px] bg-red-500   ">
             <motion.figure
               animate={{
                 transform: [
@@ -240,7 +241,7 @@ const B2bTab = () => {
                 repeatType: "reverse",
                 ease: [0.32, 0, 0.67, 1],
               }}
-              className="w-[1633px] h-[831px] border-[19.339px] rounded-[31.771px] border-[#E2C65E] relative z-50"
+              className="max-w-[1633px] h-[250px] xl:h-[831px] border-[12px] md:border-[17px] 2xl:border-[19.339px] rounded-[31.771px] border-[#E2C65E] relative z-50"
             >
               <div className="h-full w-full relative">
                 <video
@@ -253,22 +254,22 @@ const B2bTab = () => {
                 />
                 <div
                   onDoubleClick={handleFullscreen}
-                  className="h-full absolute top-0 left-0 flex items-end justify-end z-[99] w-full"
+                  className="h-full absolute top-0  left-0 flex items-start justify-end z-[99] mt-2 w-full"
                 >
                   <div className="mb-[10px] mr-[10px] flex flex-row gap-x-5">
                     {isUnMute ? (
                       <GoUnmute
                         onClick={HandleMute}
-                        className="text-[24px] cursor-pointer text-white"
+                        className="text-[24px] cursor-pointer text-black"
                       />
                     ) : (
                       <GoMute
                         onClick={HandleUnmute}
-                        className="text-[24px] cursor-pointer text-white"
+                        className="text-[24px] cursor-pointer text-black"
                       />
                     )}
                     <MdFullscreen
-                      className="text-[24px] cursor-pointer text-white"
+                      className="text-[24px] cursor-pointer text-black"
                       onClick={handleFullscreen}
                     />
                   </div>

@@ -1,15 +1,7 @@
 // src/store/userSlice.js
 
 import { createSlice } from "@reduxjs/toolkit";
-import {
-  Confused,
-  DollarBag,
-  Infilation,
-  MoneyCalculation,
-  Pricingmeter,
-  TrashBin,
-  Warning,
-} from "@/components/svg-container/SvgContainer";
+
 
 // Initial state for user data
 const initialState = {
@@ -439,10 +431,13 @@ const initialState = {
   ActiveFeatureData: [
     {
       id: 1,
+      Direction: "start",
+      HighLightedTxt: "Pain Points ",
+      isHighlight: true,
       identifier: "Lease-Core",
       SvgColorCode: "#4A3B2C",
       BgColor: "#F5F5F5",
-      Tittle: "Pain Points for Companies",
+      Tittle: "for Companies",
       SubTittle: "Lease Chaos Costs You Millions - Here’s what’s going wrong",
       TittleVariant: "large",
       CardDetails: [
@@ -478,10 +473,13 @@ const initialState = {
     },
     {
       id: 2,
+      Direction: "end",
+      HighLightedTxt: "Solutions",
+      isHighlight: true,
       SvgColorCode: "#4A3B2C",
       identifier: "Lease-Core",
       BgColor: "#E9F8F9",
-      Tittle: "Lease-Core driven Solutions",
+      Tittle: "Lease-Core driven",
       SubTittle: "Control Restored - Here’s how we save the day",
       TittleVariant: "large",
       CardDetails: [

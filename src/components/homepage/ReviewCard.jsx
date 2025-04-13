@@ -36,7 +36,7 @@ const ReviewCard = ({ review }) => {
         </div> */}
           {/* Review text */}
           <div
-            className={` max-h-[116px] ${
+            className={` max-h-[110px] lg:max-h-[160px] 2xl:max-h-[180px]  md:max-h-[116px] ${
               isFullReview ? "overflow-y-scroll" : " overflow-y-hidden"
             } `}
           >
