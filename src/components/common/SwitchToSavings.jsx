@@ -19,7 +19,7 @@ const SwitchToSavings = ({ isBusiness = false }) => {
           <p
             data-aos="fade-up"
             data-aos-delay="100"
-            className="text-white mb-4 text-xl md:text-2xl lg:text-3xl xl:text-4xl 3xl:text-[56px] max-w-[569px] font-bold 3xl:leading-[72.8px]"
+            className="text-white mb-4  text-3xl xl:text-4xl 3xl:text-[56px] max-w-[569px] font-bold 3xl:leading-[72.8px]"
           >
             Switch to Savings, Effortlessly.
           </p>

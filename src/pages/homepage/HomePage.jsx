@@ -114,13 +114,13 @@ const HomePage = () => {
           gap={300}
           speed={70}
         />
-        <div className="mt-[60px] 2xl:mt-[80px] 3xl:mt-[154px]">
+        <div className="mt-[60px] xl:mt-[80px] 3xl:mt-[154px]">
           <WhyPayRent />
         </div>
-        <div className="mt-[20px] md:mt-[30px] 2xl:mt-[70px] 3xl:mt-[120px]">
+        <div className="mt-[20px] md:mt-[30px] xl:mt-[70px] 3xl:mt-[120px]">
           <HowItWorks />
         </div>
-        <div className="mt-[20px] md:mt-[30px] 2xl:mt-[70px] 3xl:mt-[120px]">
+        <div className="mt-[20px] md:mt-[30px] xl:mt-[70px] 3xl:mt-[120px]">
           <WhatOurUserSays />
         </div>
 

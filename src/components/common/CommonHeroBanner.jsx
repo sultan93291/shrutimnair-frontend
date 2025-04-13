@@ -209,10 +209,10 @@ const CommonHeroBanner = () => {
             <p className="text-[#FFF] text-lg lg:text-[22px]">Business</p>
           </div>
 
-          <div className="mt-5 3xl:mt-12 space-y-1 lg:space-y-3">
+          <div className="mt-6 3xl:mt-12 flex flex-col gap-y-2 xl:gap-y-3 ">
             <div
               ref={gsapContainerRef}
-              className="gsap-container text-[22px] md:text-[28px] lg:text-[32px] xl:text-[40px] 3xl:text-[60px] 4xl:text-[80px] font-extrabold 3xl:leading-[80px] 4xl:leading-[102px] text-[#F2DFD7]"
+              className="gsap-container text-[32px] md:text-[40px] 2xl:text-[50px] 3xl:text-[60px] 4xl:text-[80px] font-extrabold 3xl:leading-[80px] 4xl:leading-[102px] text-[#F2DFD7]"
             >
               <div className="line">
                 <h1>
@@ -235,7 +235,7 @@ const CommonHeroBanner = () => {
 
             <div ref={subtitleRef}>
               <div className="line">
-                <h2 className="text-[#F2DFD7] md:text-lg xl:text-xl font-normal leading-8">
+                <h2 className="text-[#F2DFD7] text-lg  xl:max-w-[300px] 2xl:w-[550px] 3xl:max-w-[733px] md:text-xl font-normal leading-8">
                   {isBusiness
                     ? "Streamline leases, ESG, workflows, payments, and more"
                     : "Rent, Fees, Society Charges + Rs 3,000/Month in CASH Points"}
@@ -243,16 +243,14 @@ const CommonHeroBanner = () => {
               </div>
             </div>
           </div>
-
-          <button ref={buttonRef} className="mt-5 xl:mt-8 2xl:mt-12">
+          <button ref={buttonRef} className="mt-6 xl:mt-8 2xl:mt-12">
             <ButtonAndArrow
               buttonText={isBusiness ? "Explore Solutions" : "Get Started"}
             />
           </button>
         </div>
-
         {/* Right Side */}
-        <div className="flex-1 relative w-full">
+        <div className="flex-1 relative xl:px-5 2xl:px-0 w-full">
           <motion.figure
             ref={divRef}
             animate={{

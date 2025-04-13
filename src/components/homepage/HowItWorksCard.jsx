@@ -18,7 +18,7 @@ const HowItWorksCard = ({ title, steps, icon }) => {
           <div>
             <button
 
-              className="transition-all  bg-[#B68D40] group-hover:bg-[#4E6151] duration-500 ease-in-out p-[13px] rounded-[414.286px] text-white"
+              className="transition-all  bg-[#B68D40] group-hover:bg-[#4E6151] duration-500 ease-in-out p-[10px] lg:p-[13px] rounded-[414.286px] text-white"
             >
               <span className="group-hover:fill-white transition-all duration-500 ease-in-out">
                 {icon}
