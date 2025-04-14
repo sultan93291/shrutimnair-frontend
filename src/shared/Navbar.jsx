@@ -60,7 +60,7 @@ const Navbar = () => {
       <nav className="flex justify-between items-center py-3 w-full">
         {/* This is the left side div */}
         <Link data-aos="fade-up" data-aos-delay="100" to={"/"}>
-          <figure className="w-[125px] lg:w-[164px] 2xl:w-[189px] ">
+          <figure className="w-[125px] lg:w-[164px] 3xl:w-[189px] ">
             <img className="w-full h-full object-cover" src={logo} alt="" />
           </figure>
         </Link>

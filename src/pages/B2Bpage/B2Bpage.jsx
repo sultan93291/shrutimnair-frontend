@@ -146,17 +146,17 @@ const B2Bpage = () => {
   return (
     <div>
       <CommonHeroBanner isB2b={true} />
-      <div className="mt-[60px] 2xl:mt-[80px] 3xl:mt-[154px]">
+      <div className="mt-[20px] md:mt-[30px] xl:mt-[70px] 3xl:mt-[120px]">
         <ReactMarquee
           isIndividual={false}
           imgArr={imgArr}
           gap={300}
           speed={70}
         />
-        <div className="  mt-[60px] xl:mt-[80px] 3xl:mt-[120px] ">
+        <div className="mt-[60px] 3xl:mt-[120px] ">
           <B2bTab />
         </div>
-        <div className="mb-[120px]">
+        <div className="  mt-[40px] xl:mt-[70px] 4xl:mt-[120px]">
           <B2bCommonFeature
             Tittle={ActiveFeatureData[0]?.Tittle}
             SubTittle={ActiveFeatureData[0]?.SubTittle}
@@ -168,7 +168,7 @@ const B2Bpage = () => {
             Direction={ActiveFeatureData[0].Direction}
           />
         </div>
-        <div className="mb-[120px]">
+        <div className="mt-[40px] xl:mt-[70px] 4xl:mt-[120px]">
           <B2bCommonFeature
             Tittle={ActiveFeatureData[1]?.Tittle}
             SubTittle={ActiveFeatureData[1]?.SubTittle}
@@ -180,7 +180,7 @@ const B2Bpage = () => {
             Direction={ActiveFeatureData[1].Direction}
           />
         </div>
-        <div className=" mb-[87px]">
+        <div className=" mt-[40px] xl:mt-[70px] 3xl:mt-[120px] mb-10 xl:mb-[87px] ">
           <B2bPrice />
         </div>
         <div>
