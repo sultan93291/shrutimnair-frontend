@@ -153,10 +153,10 @@ const B2Bpage = () => {
           gap={300}
           speed={70}
         />
-        <div className="mt-[60px] 3xl:mt-[120px] ">
+        <div className="mt-[60px] 2xl:mt-[120px] ">
           <B2bTab />
         </div>
-        <div className="  mt-[40px] xl:mt-[70px] 4xl:mt-[120px]">
+        <div className="  mt-[40px] xl:mt-[60px] 4xl:mt-[120px]">
           <B2bCommonFeature
             Tittle={ActiveFeatureData[0]?.Tittle}
             SubTittle={ActiveFeatureData[0]?.SubTittle}
