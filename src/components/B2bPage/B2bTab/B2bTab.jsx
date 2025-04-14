@@ -158,8 +158,8 @@ const B2bTab = () => {
   }, []);
 
   return (
-    <div className="flex flex-col gap-y-[48px] xl:gap-y-[96px] pb-[226.5px] xl:pb-[525px] ">
-      <div className="flex flex-row flex-wrap gap-[12px]  xl:gap-x-[30px] w-full items-center justify-center">
+    <div className="flex flex-col gap-y-[60px] xl:gap-y-[96px] pb-[226.5px] xl:pb-[525px] ">
+      <div className="flex flex-row flex-wrap gap-x-[12px] gap-y-6  xl:gap-x-[30px] w-full items-center justify-center">
         {TabDetails.map((item, index) => {
           return (
             <div
@@ -168,15 +168,15 @@ const B2bTab = () => {
                 backgroundColor: `${
                   item.id === ActiveTabId ? item.tabColor : "#F3F3F3"
                 }`,
-                transition: "background-color 0.5s ease, color 0.5s ease", // Add transition
+                transition: "background-color 0.5s ease, color 0.5s ease", 
               }}
-              className={`h-auto w-[160px] 2xl:w-[338px] rounded-[15px] xl:rounded-[31.1px] shadow-TabShadow flex flex-col gap-y-2 2xl:gap-y-[36.87px] items-center justify-center 2xl:py-[67.8px] py-5 px-1 transition-colors duration-500`} // Added transition classes
+              className={`h-auto w-[160px] xl:w-[250px] 2xl:w-[300px] 3xl:w-[338px] rounded-[15px] xl:rounded-[31.1px] shadow-TabShadow flex flex-col gap-y-2 3xl:gap-y-[36.87px] items-center justify-center 2xl:py-[30px] 3xl:py-[67.8px] py-5 px-1   transition-colors duration-500`} 
             >
               <h2
                 style={{
                   transition: "color 0.5s ease",
                 }}
-                className={` text-lg 2xl:text-[32px] font-extrabold leading-[130%] ${
+                className={` text-lg xl:text-2xl 2xl:text-[32px] font-extrabold leading-[130%] ${
                   item.id === ActiveTabId ? "text-[#FFF]" : "text-[#050404]"
                 }`}
               >
@@ -190,7 +190,7 @@ const B2bTab = () => {
                   dispatch(SetActiveFeatureData(item.tittle));
                   dispatch(setActivePricingTears(item.tittle));
                 }}
-                className=" mt-3 xl:mt-12 transition-opacity duration-300 hover:opacity-80" // Optional: Add button hover effect
+                className=" mt-3 xl:mt-12 transition-opacity duration-300 hover:opacity-80" 
               >
                 <ButtonAndArrow
                   isHidden={true}
@@ -205,31 +205,31 @@ const B2bTab = () => {
       </div>
       <div className="xl:px-[50px]">
         <div
-          className={`w-full xl:h-[801px] xl:rounded-[50px] ease-in duration-300 py-[45.5px] xl:py-[91px] px-[20px] xl:px-[92px] flex flex-col xl:flex-row justify-between gap-y-4 gap-x-[137px] relative`}
+          className={`w-full 4xl:h-[801px] xl:rounded-[50px] ease-in duration-300 py-[45.5px] 2xl:py-[91px] px-[20px] xl:px-[92px] flex flex-col 3xl:flex-row justify-between gap-y-4 gap-x-[137px] relative`}
           style={{
             backgroundColor: `${ActiveTab.tabColor}`,
           }}
         >
           {/* Text Content */}
           <div className="flex flex-col gap-y-[11.5px] xl:gap-y-[21px]">
-            <h2 className="text-[36px] xl:text-[56px] text-white leading-[130%] font-extrabold">
+            <h2 className="text-[36px] 2xl:text-[45px] 3xl:text-[56px] text-white leading-[130%] font-extrabold">
               {ActiveTab.tittle}
             </h2>
-            <span className="text-lg xl:text-[24px] text-white leading-[160%] xl:leading-[190%] font-normal xl:text-nowrap">
+            <span className="text-lg 2xl:text-[24px] text-white 3xl:leading-[160%] xl:leading-[190%] font-normal xl:text-nowrap">
               {ActiveTab.subTittle}
             </span>
           </div>
 
           {/* Description & Button */}
           <div className="flex flex-col gap-y-[28px]">
-            <span className="text-lg xl:text-[24px] text-white xl:leading-[190%] font-normal max-w-[729px]">
+            <span className="text-lg text-[20px] 3xl:text-[24px] text-white 2xl:leading-[190%] font-normal max-w-[729px]">
               {ActiveTab.descreption}
             </span>
             <ButtonAndArrow buttonText={ActiveTab.mainBtnTxt} />
           </div>
 
           {/* Video Section - Centered */}
-          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 xl:flex-1 mb-[-220px] xl:mb-[-388px]">
+          <div className="absolute  bottom-0 left-1/2 transform -translate-x-1/2 xl:flex-1 mb-[-220px] lg:mb-[-360px] 2xl:mb-[-420px] 4xl:mb-[-428px]">
             <motion.figure
               animate={{
                 transform: [
@@ -245,7 +245,7 @@ const B2bTab = () => {
                 repeatType: "reverse",
                 ease: [0.32, 0, 0.67, 1],
               }}
-              className=" w-[350px] 4xl:w-[1633px] h-[250px] xl:h-[831px] border-[12px] md:border-[17px] 2xl:border-[19.339px] rounded-[31.771px] border-[#E2C65E] relative z-50"
+              className=" w-[350px] md:w-[450px] lg:w-[600px] xl:w-[800px] 2xl:w-[1000px] 4xl:w-[1633px] h-[250px] lg:h-[400px] 2xl:h-[500px] 4xl:h-[831px] border-[12px] md:border-[17px] 2xl:border-[19.339px] rounded-[31.771px] border-[#E2C65E] relative z-50"
             >
               <div className="h-full w-full relative">
                 <video
