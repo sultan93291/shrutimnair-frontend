@@ -4,14 +4,14 @@ export default {
   theme: {
     extend: {
       screens: {
-        xs: "375px",
-        sm: "480px",
-        md: "576px",
-        lg: "768px",
-        xl: "1024px",
-        "2xl": "1200px",
-        "3xl": "1460px",
-        "4xl": "1650px",
+        xs: "360px",
+        sm: "480px", // Small mobile devices
+        md: "576px", // Tablets and small mobile screens
+        lg: "768px", // Medium tablets and large phones
+        xl: "992px", // Laptops or larger tablets
+        "2xl": "1200px", // Standard desktop screens
+        "3xl": "1500px", // Larger desktop displays
+        "4xl": "1920px", // High-resolution or ultra-wide displays
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

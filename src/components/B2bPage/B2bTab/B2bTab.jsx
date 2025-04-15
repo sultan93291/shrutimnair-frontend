@@ -158,7 +158,7 @@ const B2bTab = () => {
   }, []);
 
   return (
-    <div className="flex flex-col gap-y-[60px] xl:gap-y-[96px] pb-[226.5px] xl:pb-[525px] ">
+    <div className="flex flex-col gap-y-[60px] xl:gap-y-[96px] pb-[226.5px] lg:pb-[425px] 2xl:pb-[525px] ">
       <div className="flex flex-row flex-wrap gap-x-[12px] gap-y-6  xl:gap-x-[30px] w-full items-center justify-center">
         {TabDetails.map((item, index) => {
           return (
@@ -205,7 +205,7 @@ const B2bTab = () => {
       </div>
       <div className="xl:px-[50px]">
         <div
-          className={`w-full 4xl:h-[801px] xl:rounded-[50px] ease-in duration-300 py-[45.5px] 2xl:py-[91px] px-[20px] xl:px-[92px] flex flex-col 3xl:flex-row justify-between gap-y-4 gap-x-[137px] relative`}
+          className={`w-full 3xl:h-[651px] 4xl:h-[801px] xl:rounded-[50px] ease-in duration-300 py-[45.5px] 2xl:py-[91px] px-[20px] xl:px-[92px] flex flex-col 3xl:flex-row justify-between gap-y-4 gap-x-[137px] relative`}
           style={{
             backgroundColor: `${ActiveTab.tabColor}`,
           }}
@@ -245,7 +245,7 @@ const B2bTab = () => {
                 repeatType: "reverse",
                 ease: [0.32, 0, 0.67, 1],
               }}
-              className=" w-[350px] md:w-[450px] lg:w-[600px] xl:w-[800px] 2xl:w-[1000px] 4xl:w-[1633px] h-[250px] lg:h-[400px] 2xl:h-[500px] 4xl:h-[831px] border-[12px] md:border-[17px] 2xl:border-[19.339px] rounded-[31.771px] border-[#E2C65E] relative z-50"
+              className=" w-[350px] md:w-[450px] lg:w-[600px] xl:w-[800px] 2xl:w-[1000px] 3xl:w-[1300px] 4xl:w-[1633px] h-[250px] lg:h-[400px] 2xl:h-[500px] 3xl:h-[650px] 4xl:h-[831px] border-[12px] md:border-[17px] 2xl:border-[19.339px] rounded-[31.771px] border-[#E2C65E] relative z-50"
             >
               <div className="h-full w-full relative">
                 <video

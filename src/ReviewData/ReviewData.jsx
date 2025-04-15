@@ -5944,5 +5944,2016 @@ export const ReviewData = [
     author_designation: " Associate Software Engineer",
     author_image_url: "images/Review_profile/prakash_g.jpg ",
   },
-  ,
+  {
+    id: 468,
+    author_name: "Aarav Kapoor",
+    review_description:
+      "I started using RedGirraffe for my rent payments last month. The process is smooth, and I love earning reward points on my HDFC card. It's a small fee for such convenience—totally worth it!",
+    author_company: null,
+    sequence: 450,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 468,
+    author_name: "Aarav Kapoor",
+    review_description:
+      "I started using RedGirraffe for my rent payments last month. The process is smooth, and I love earning reward points on my HDFC card. It's a small fee for such convenience—totally worth it!",
+    author_company: null,
+    sequence: 450,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 469,
+    author_name: "Sophie Laurent ",
+    review_description:
+      "Living in Mumbai, I pay my rent through RentPay, and it’s been a relief. The setup took a day, but now it’s super easy every month. I just wish they’d add more international card options.",
+    author_company: "France",
+    sequence: 451,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 470,
+    author_name: "Priya Venkatesh",
+    review_description:
+      "RedGirraffe has simplified my college fee payments so much. The low 0.39% fee and cashback offers make it a smart choice. Customer support could be quicker, though.",
+    author_company: null,
+    sequence: 452,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 471,
+    author_name: "Liam O’Connell ",
+    review_description:
+      "As an expat, I use RentPay for my apartment rent in Bangalore. It’s reliable, and the credit period helps me manage my finances better. Great service overall—highly recommend it!",
+    author_company: "Ireland",
+    sequence: 453,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 472,
+    author_name: "Rohit Malhotra",
+    review_description:
+      "Paying society charges through RedGirraffe is a breeze now. The app is user-friendly, and payments are credited on time. I’ve told all my neighbors to try it!",
+    author_company: null,
+    sequence: 454,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 473,
+    author_name: "Elena Petrova ",
+    review_description:
+      "I’ve been using RentPay for my kid’s school fees in Delhi. It’s convenient, but the verification process was a bit slow at first. Now that it’s set up, I’m really happy with it.",
+    author_company: "Russia",
+    sequence: 455,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 474,
+    author_name: "Sneha Pillai",
+    review_description:
+      "RentPay makes paying my rent so stress-free every month. I earn points on my ICICI card, which is a nice bonus. The service is perfect for busy people like me.",
+    author_company: null,
+    sequence: 456,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 475,
+    author_name: "Carlos Rivera ",
+    review_description:
+      "I pay my rent in Hyderabad using RedGirraffe, and it’s fantastic. The low fee and reward system are big pluses for me. Took a while to link my foreign card, but it works fine now.",
+    author_company: "Spain",
+    sequence: 457,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 476,
+    author_name: "Vikram Sethi",
+    review_description:
+      "I use RedGirraffe for my son’s school fees and society charges. It’s quick, reliable, and saves me from standing in queues. The app could use a better interface, though.",
+    author_company: null,
+    sequence: 458,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 477,
+    author_name: "Amara Diallo",
+    review_description:
+      "Paying college fees through RentPay has been a lifesaver here in Pune. I love how I can delay payments and earn some interest. It’s a brilliant service for students like me!",
+    author_company: "Senegal",
+    sequence: 459,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 478,
+    author_name: "Ananya Rao",
+    review_description:
+      "RedGirraffe is my go-to for rent and society charges. The setup was easy, and I get cashback on my SBI card. No complaints—works like a charm!",
+    author_company: null,
+    sequence: 460,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 479,
+    author_name: "Hiroshi Tanaka",
+    review_description:
+      "I use RentPay for my rent in Chennai, and it’s very convenient. The process is straightforward, and I like the low fees. Customer support took two days to reply once, though.",
+    author_company: "Japan",
+    sequence: 461,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 480,
+    author_name: "Kunal Deshmukh",
+    review_description:
+      "Paying my college fees with RedGirraffe is so simple now. The rewards on my Axis card are a great incentive. I’d love it if they added more payment options.",
+    author_company: null,
+    sequence: 462,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 481,
+    author_name: "Isabella Rossi",
+    review_description:
+      "As a foreigner in India, RentPay makes my rent payments hassle-free. The service is reliable, and I appreciate the transparency. It’s been a smooth experience so far!",
+    author_company: "Italy",
+    sequence: 463,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 482,
+    author_name: "Meera Nair",
+    review_description:
+      "I’ve been using RentPay for my society charges for six months. Payments are always on time, and the fee is reasonable. Highly recommend it to everyone!",
+    author_company: null,
+    sequence: 464,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 483,
+    author_name: "Mateo Gonzalez",
+    review_description:
+      "I pay my rent in Gurgaon with RedGirraffe, and it’s awesome. The credit period gives me flexibility with my budget. Setup was quick, and I’m a happy user!",
+    author_company: "Argentina",
+    sequence: 465,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 484,
+    author_name: "Siddharth Iyer",
+    review_description:
+      "RedGirraffe has made school fee payments so much easier. I get points on my Kotak card, which is a nice perk. The app works fine, but it could load faster.",
+    author_company: null,
+    sequence: 466,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 485,
+    author_name: "Fatima Zahra",
+    review_description:
+      "Living in India, I use RentPay for my college fees in Kolkata. It’s affordable and saves me a lot of time. The rewards are a sweet bonus too!",
+    author_company: "Morocco",
+    sequence: 467,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 486,
+    author_name: "Riya Sen",
+    review_description:
+      "Paying rent with RedGirraffe is super convenient for me. The low fee and cashback make it a win-win. I’ve had no issues so far—great service!",
+    author_company: null,
+    sequence: 468,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 487,
+    author_name: "Lucas Müller",
+    review_description:
+      "I use RentPay for my rent in Noida, and it’s been smooth. The process is simple, and I like earning rewards. Took a day to verify, but now it’s perfect.",
+    author_company: "Germany",
+    sequence: 469,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 488,
+    author_name: "Aditya Chopra",
+    review_description:
+      "RedGirraffe is great for my society charges and rent. Payments are processed quickly, and I save time. The fee is low, so I’m happy with it!",
+    author_company: null,
+    sequence: 470,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 489,
+    author_name: "Aisha Mohamed",
+    review_description:
+      "I pay my kid’s school fees in Mumbai with RentPay. It’s reliable, and the cashback offers are nice. The app could be more intuitive, though.",
+    author_company: "Egypt",
+    sequence: 471,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 490,
+    author_name: "Shalini Reddy",
+    review_description:
+      "RentPay has been a game-changer for my college fees. I love how easy it is to set up and use. The rewards on my card are the cherry on top!",
+    author_company: null,
+    sequence: 472,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 491,
+    author_name: "Noah Kim",
+    review_description:
+      "I use RedGirraffe for my rent in Bangalore, and it’s fantastic. The low fee and credit period are really helpful. Highly recommend it to other expats!",
+    author_company: "South Korea",
+    sequence: 473,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 492,
+    author_name: "Rahul Khanna",
+    review_description:
+      "Paying society charges with RentPay is so effortless now. The service is reliable, and I get points on my card. It’s a small price for such convenience.",
+    author_company: null,
+    sequence: 474,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 493,
+    author_name: "Sofia Almeida",
+    review_description:
+      "Paying rent in Delhi is so easy with RentPay! I love the transparency and the reward system. It took me a bit to get used to it, but now I’m totally hooked!",
+    author_company: "Brazil",
+    sequence: 475,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 494,
+    author_name: "Pooja Sharma",
+    review_description:
+      "I use RedGirraffe to pay my kid’s school fees every month. It’s fast, reliable, and the cashback offers are a sweet bonus. No delays so far—really happy with it!",
+    author_company: null,
+    sequence: 476,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 495,
+    author_name: "Omar Farooq",
+    review_description:
+      "I live in Hyderabad and use RentPay for rent payments. The process is smooth, and the fee is reasonable. I just wish customer support was a bit quicker.",
+    author_company: "Pakistan",
+    sequence: 477,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 496,
+    author_name: "Nikhil Patel",
+    review_description:
+      "RedGirraffe makes paying rent and college fees super simple. Low fees, solid rewards, and the setup was a breeze. Totally satisfied!",
+    author_company: null,
+    sequence: 478,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 497,
+    author_name: "Emma Wilson",
+    review_description:
+      "I use RentPay to pay rent for my apartment in Pune. It’s super convenient, and the credit period option is a lifesaver. A great service, especially for expats like me!",
+    author_company: "UK",
+    sequence: 479,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 498,
+    author_name: "Kavita Menon",
+    review_description:
+      "RedGirraffe makes paying society charges effortless. The app is easy to use and always on time. I’ve already recommended it to friends!",
+    author_company: null,
+    sequence: 480,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 499,
+    author_name: "Ali Reza",
+    review_description:
+      "I pay my college fees in Chennai through RentPay. It’s affordable, and the process is straightforward. The rewards are a nice touch too!",
+    author_company: "Iran",
+    sequence: 481,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 500,
+    author_name: "Arjun Nair",
+    review_description:
+      "RentPay has made my rent payments stress-free. I earn points on my SBI card every month. The service is reliable—love it!",
+    author_company: null,
+    sequence: 482,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 501,
+    author_name: "Clara Dupont",
+    review_description:
+      "Living in India, I use RentPay for my rent in Mumbai. The low fee and ease of use are impressive. Took a day to set up, but now it’s perfect.",
+    author_company: "France",
+    sequence: 483,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 502,
+    author_name: "Sameer Thakur",
+    review_description:
+      "I use RedGirraffe for my kid’s school fees and rent. It’s quick, and the cashback offers are great. The app could use a few more features, though.",
+    author_company: null,
+    sequence: 484,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 503,
+    author_name: "Lina Hassan",
+    review_description:
+      "RentPay helps me pay my rent in Bangalore easily. The service is reliable, and I like the rewards. It’s been a smooth ride so far!",
+    author_company: "Lebanon",
+    sequence: 485,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 504,
+    author_name: "Tanya Bose",
+    review_description:
+      "Paying college fees with RedGirraffe is so convenient. The low fee and credit period are big pluses. I’m a happy user—great platform!",
+    author_company: null,
+    sequence: 486,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 505,
+    author_name: "Diego Lopez",
+    review_description:
+      "I use RentPay for my rent in Gurgaon, and it’s awesome. The process is simple, and I save time every month. Highly recommend it to others!",
+    author_company: "Mexico",
+    sequence: 487,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 506,
+    author_name: "Ishaan Varma",
+    review_description:
+      "RedGirraffe makes society charges a breeze to pay. I get rewards on my ICICI card, which is nice. The service is flawless so far!",
+    author_company: null,
+    sequence: 488,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 507,
+    author_name: "Sara Ahmed",
+    review_description:
+      "Paying my kid’s school fees in Delhi with RentPay is easy. The low fee and cashback make it worthwhile. Customer support could be faster, though.",
+    author_company: "UAE",
+    sequence: 489,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 508,
+    author_name: "Divya Shetty",
+    review_description:
+      "RentPay simplifies my rent payments every month. The setup was quick, and I love the rewards. It’s a great service—highly recommend!",
+    author_company: null,
+    sequence: 490,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 509,
+    author_name: "Jasper Van Dijk",
+    review_description:
+      "I pay my rent in Noida with RedGirraffe, and it’s great. The credit period helps me manage my expenses. Took a bit to verify my card, but now it’s smooth.",
+    author_company: "Netherlands",
+    sequence: 491,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 510,
+    author_name: "Amitabh Das",
+    review_description:
+      "Paying college fees with RentPay is so easy now. The low fee and cashback are fantastic perks. I’ve had no issues—solid platform!",
+    author_company: null,
+    sequence: 492,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 511,
+    author_name: "Nadia Khan",
+    review_description:
+      "I use RentPay for my rent in Kolkata, and it’s reliable. The process is simple, and I like the transparency. Great for people living away from home!",
+    author_company: "Bangladesh",
+    sequence: 493,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 512,
+    author_name: "Suman Yadav",
+    review_description:
+      "RedGirraffe is perfect for my society charges. Payments are quick, and I earn points on my card. The app works well—happy with it!",
+    author_company: null,
+    sequence: 494,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 513,
+    author_name: "Ethan Parker",
+    review_description:
+      "RentPay makes paying my rent in Hyderabad so simple. The low fee and reward system are big wins for me. It’s been a great experience so far!",
+    author_company: "USA",
+    sequence: 495,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 514,
+    author_name: "Karan Mehra",
+    review_description:
+      "I use RedGirraffe for my kid’s school fees every month. It’s hassle-free, and the cashback is a nice bonus. Highly recommend it to parents!",
+    author_company: null,
+    sequence: 496,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 515,
+    author_name: "Yuki Sato",
+    review_description:
+      "Living in Pune, I pay my rent with RentPay. The service is smooth, and the fee is reasonable. Took a day to set up, but now it’s perfect.",
+    author_company: "Japan",
+    sequence: 497,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 516,
+    author_name: "Lakshmi Suresh",
+    review_description:
+      "Paying rent with RedGirraffe is so convenient for me. I love earning rewards on my Kotak card. The platform is reliable—great job!",
+    author_company: null,
+    sequence: 498,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 517,
+    author_name: "Zara Iqbal",
+    review_description:
+      "I use RentPay for my college fees in Mumbai. It’s affordable, and the credit period is helpful. The app could be a bit faster, though.",
+    author_company: "Pakistan",
+    sequence: 499,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 518,
+    author_name: "Vivek Nambiar",
+    review_description:
+      "RedGirraffe simplifies my society charges and rent. The low fee and quick payments are impressive. I’ve been a happy user for months!",
+    author_company: null,
+    sequence: 499,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 519,
+    author_name: "Olivia Chen",
+    review_description:
+      "Paying my rent in Bangalore with RentPay is easy. The rewards on my card make it even better. Great service for expats like me!",
+    author_company: "China",
+    sequence: 500,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 520,
+    author_name: "Shreya Ghosh",
+    review_description:
+      "I use RentPay for my college fees every semester. It’s seamless, and the cashback offers are awesome. No complaints—works perfectly!",
+    author_company: null,
+    sequence: 501,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 521,
+    author_name: "Ahmed Hassan",
+    review_description:
+      "RentPay helps me pay my rent in Chennai effortlessly. The process is clear, and the fee is low. I’d recommend it to anyone!",
+    author_company: "Sudan",
+    sequence: 502,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 522,
+    author_name: "Harsh Vardhan",
+    review_description:
+      "Paying school fees with RedGirraffe is so simple now. The app is easy to use, and I get rewards. It’s a great service—love it!",
+    author_company: null,
+    sequence: 503,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 523,
+    author_name: "Julia Nowak",
+    review_description:
+      "I use RentPay for my rent in Delhi, and it’s fantastic. The credit period gives me some breathing room. Setup was quick—happy with it!",
+    author_company: "Poland",
+    sequence: 504,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 524,
+    author_name: "Anjali Rawat",
+    review_description:
+      "RedGirraffe makes my society charges hassle-free. Payments are always on time, and the fee is low. I’ve told my family to use it too!",
+    author_company: null,
+    sequence: 505,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 525,
+    author_name: "Miguel Santos",
+    review_description:
+      "Living in Gurgaon, I pay my rent with RentPay. The service is reliable, and I like the rewards. It’s been smooth sailing so far!",
+    author_company: "Portugal",
+    sequence: 506,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 526,
+    author_name: "Sachin Tendulkar",
+    review_description:
+      "I use RentPay for my kid’s school fees and rent. The process is quick, and I earn points on my card. Great platform—highly satisfied!",
+    author_company: null,
+    sequence: 507,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 527,
+    author_name: "Layla Omar",
+    review_description:
+      "RentPay makes paying my college fees in Pune so easy. The low fee and cashback are big pluses for me. The app could load faster, though.",
+    author_company: "Jordan",
+    sequence: 508,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 528,
+    author_name: "Jyoti Kumari",
+    review_description:
+      "Paying rent with RedGirraffe is a breeze every month. I love the transparency and reward system. It’s a lifesaver for busy people!",
+    author_company: null,
+    sequence: 509,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 529,
+    author_name: "Andrei Popov",
+    review_description:
+      "I use RentPay for my rent in Hyderabad, and it’s great. The credit period helps me plan my finances better. Highly recommend it to others!",
+    author_company: "Russia",
+    sequence: 510,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 530,
+    author_name: "Rakesh Pandey",
+    review_description:
+      "RedGirraffe simplifies my society charges perfectly. The app is straightforward, and payments are quick. I’ve had no issues so far!",
+    author_company: null,
+    sequence: 511,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 531,
+    author_name: "Chloe Tan",
+    review_description:
+      "Paying my rent in Mumbai with RentPay is so convenient. The low fee and rewards make it a smart choice. Took a day to verify, but now it’s flawless!",
+    author_company: "Singapore",
+    sequence: 512,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 532,
+    author_name: "Nisha Agrawal",
+    review_description:
+      "I use RentPay for my college fees every semester. It’s reliable, and the cashback offers are nice. Great service—highly recommend!",
+    author_company: null,
+    sequence: 513,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 533,
+    author_name: "Samuel Adebayo",
+    review_description:
+      "RentPay helps me pay my rent in Bangalore easily. The process is simple, and I like the transparency. It’s been a smooth experience so far!",
+    author_company: "Nigeria",
+    sequence: 514,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 534,
+    author_name: "Pranav Mishra",
+    review_description:
+      "Paying school fees with RedGirraffe is so effortless. I get rewards on my Axis card, which is awesome. The app works well—happy user!",
+    author_company: null,
+    sequence: 515,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 535,
+    author_name: "Hana Kim",
+    review_description:
+      "I use RentPay for my rent in Noida, and it’s fantastic. The low fee and credit period are really helpful. Great platform for foreigners like me!",
+    author_company: "South Korea",
+    sequence: 516,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 536,
+    author_name: "Aisha Khan",
+    review_description:
+      "RedGirraffe makes my society charges a breeze to pay. Payments are quick, and I earn points on my card. It’s a small fee for such convenience!",
+    author_company: null,
+    sequence: 517,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 537,
+    author_name: "Gabriel Costa",
+    review_description:
+      "Paying my rent in Pune with RentPay is so simple. The service is reliable, and I love the rewards. Took a bit to set up, but now it’s perfect.",
+    author_company: "Brazil",
+    sequence: 518,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 538,
+    author_name: "Tarun Sethi",
+    review_description:
+      "I use RentPay for my kid’s school fees every month. It’s hassle-free, and the cashback is a bonus. Highly recommend it to parents!",
+    author_company: null,
+    sequence: 519,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 539,
+    author_name: "Amina Yusuf",
+    review_description:
+      "RentPay makes paying my college fees in Delhi easy. The low fee and credit period are big wins for me. The app could be more user-friendly, though.",
+    author_company: "Kenya",
+    sequence: 520,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 540,
+    author_name: "Swati Rana",
+    review_description:
+      "Paying rent with RedGirraffe is super convenient. I earn points on my ICICI card every month. The service is flawless—love it!",
+    author_company: null,
+    sequence: 521,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 541,
+    author_name: "Lars Eriksson",
+    review_description:
+      "I use RentPay for my rent in Chennai, and it’s awesome. The process is clear, and the fee is affordable. Highly recommend it to expats!",
+    author_company: "Sweden",
+    sequence: 522,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 542,
+    author_name: "Gaurav Dubey",
+    review_description:
+      "Paying rent with RedGirraffe is super convenient. I earn points on my ICICI card every month. The service is flawless—love it!",
+    author_company: "Sweden",
+    sequence: 523,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 544,
+    author_name: "Sana Malik",
+    review_description:
+      "Paying my rent in Hyderabad with RentPay is so easy. The rewards on my card make it even better. Took a day to verify, but now it’s great!",
+    author_company: "Pakistan",
+    sequence: 525,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 545,
+    author_name: "Manisha Verma",
+    review_description:
+      "I use RentPay for my college fees every semester. It’s seamless, and the cashback offers are awesome. No complaints—works perfectly!",
+    author_company: null,
+    sequence: 526,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 546,
+    author_name: "Oscar Nilsson",
+    review_description:
+      "RentPay helps me pay my rent in Mumbai effortlessly. The low fee and credit period are impressive. It’s been a smooth ride so far!",
+    author_company: "Norway",
+    sequence: 527,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 547,
+    author_name: "Abhishek Roy",
+    review_description:
+      "Paying school fees with RedGirraffe is so simple now. I get rewards on my SBI card, which is nice. The app works well—highly satisfied!",
+    author_company: null,
+    sequence: 528,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 548,
+    author_name: "Priya Lim",
+    review_description:
+      "I use RentPay for my rent in Bangalore, and it’s fantastic. The process is straightforward, and I like the rewards. Great service for foreigners like me!",
+    author_company: "Malaysia",
+    sequence: 529,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 549,
+    author_name: "Rekha Sharma",
+    review_description:
+      "RedGirraffe makes my society charges hassle-free. Payments are always on time, and the fee is low. I’ve recommended it to my friends!",
+    author_company: null,
+    sequence: 530,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 550,
+    author_name: "João Silva",
+    review_description:
+      "Paying my rent in Gurgaon with RentPay is so convenient. The credit period gives me some flexibility. Took a bit to set up, but now I love it!",
+    author_company: "Portugal",
+    sequence: 531,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 551,
+    author_name: "Omkar Patil",
+    review_description:
+      "I use RentPay for my kid’s school fees and rent. It’s quick, and the cashback offers are great. The service is reliable—happy user!",
+    author_company: null,
+    sequence: 532,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 552,
+    author_name: "Fatima Ali",
+    review_description:
+      "RentPay makes paying my college fees in Pune easy. The low fee and transparency are big pluses. The app could load faster, though.",
+    author_company: "UAE",
+    sequence: 533,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 553,
+    author_name: "Priyanka Dutta",
+    review_description:
+      "Paying rent with RedGirraffe is a breeze every month. I love earning rewards on my Kotak card. It’s a lifesaver for busy people!",
+    author_company: null,
+    sequence: 534,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 554,
+    author_name: "Thomas Weber",
+    review_description:
+      "I use RentPay for my rent in Delhi, and it’s awesome. The process is simple, and I save time every month. Highly recommend it to others!",
+    author_company: "Germany",
+    sequence: 535,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 555,
+    author_name: "Yashwant Singh",
+    review_description:
+      "RedGirraffe simplifies my society charges perfectly. The app is straightforward, and payments are quick. I’ve had no issues so far!",
+    author_company: null,
+    sequence: 536,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 556,
+    author_name: "Maya Patel",
+    review_description:
+      "Paying my rent in Noida with RentPay is so easy. The low fee and reward system are fantastic. Took a day to verify, but now it’s flawless!",
+    author_company: "Canada",
+    sequence: 537,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 557,
+    author_name: "Deepika Nair",
+    review_description:
+      "I use RentPay for my college fees every semester. It’s reliable, and the cashback offers are nice. Great platform—highly recommend!",
+    author_company: null,
+    sequence: 538,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 558,
+    author_name: "Khalid Hassan",
+    review_description:
+      "RentPay helps me pay my rent in Hyderabad effortlessly. The process is clear, and the fee is affordable. It’s been a great experience so far!",
+    author_company: "Saudi Arabia",
+    sequence: 539,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 559,
+    author_name: "Saurabh Jain",
+    review_description:
+      "Paying school fees with RedGirraffe is so effortless. I get rewards on my Axis card, which is awesome. The app works well—happy user!",
+    author_company: null,
+    sequence: 540,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 560,
+    author_name: "Leila Farah",
+    review_description:
+      "I use RentPay for my rent in Bangalore, and it’s fantastic. The low fee and credit period are really helpful. Great service for foreigners like me!",
+    author_company: "Lebanon",
+    sequence: 541,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 561,
+    author_name: "Komal Arora",
+    review_description:
+      "RedGirraffe makes my society charges a breeze to pay. Payments are quick, and I earn points on my card. It’s a small fee for such convenience!",
+    author_company: null,
+    sequence: 542,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 562,
+    author_name: "Pablo Ortiz",
+    review_description:
+      "Paying my rent in Pune with RentPay is so simple. The service is reliable, and I love the rewards. Took a bit to set up, but now it’s perfect.",
+    author_company: "Spain",
+    sequence: 543,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 563,
+    author_name: "Raghav Khanna",
+    review_description:
+      "I use RentPay for my kid’s school fees every month. It’s hassle-free, and the cashback is a bonus. Highly recommend it to parents!",
+    author_company: null,
+    sequence: 544,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 564,
+    author_name: "Amira Said",
+    review_description:
+      "RentPay makes paying my college fees in Delhi easy. The low fee and credit period are big wins for me. The app could be more user-friendly, though.",
+    author_company: "Egypt",
+    sequence: 545,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 565,
+    author_name: "Sunita Biswas",
+    review_description:
+      "Paying rent with RedGirraffe is super convenient. I earn points on my ICICI card every month. The service is flawless—love it!",
+    author_company: null,
+    sequence: 546,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 566,
+    author_name: "Finn Larsen",
+    review_description:
+      "I use RentPay for my rent in Chennai, and it’s awesome. The process is clear, and the fee is affordable. Highly recommend it to expats!",
+    author_company: "Denmark",
+    sequence: 547,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 567,
+    author_name: "John Matthews",
+    review_description:
+      "RentPay simplifies my rent payments in Mumbai. The low fee and reward system are impressive. It’s been a smooth experience so far!",
+    author_company: "USA",
+    sequence: 548,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 568,
+    author_name: "Rina Choudhury",
+    review_description:
+      "Paying my rent in Kolkata with RentPay is so easy. The rewards on my card make it even better. Took a day to verify, but now it’s great!",
+    author_company: "Bangladesh",
+    sequence: 549,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 569,
+    author_name: "Akash Tiwari",
+    review_description:
+      "I use RedGirraffe for my society charges and rent. Payments are quick, and I save time every month. The app works well—happy user!",
+    author_company: null,
+    sequence: 550,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 570,
+    author_name: "Sophie Nguyen",
+    review_description:
+      "RentPay helps me pay my rent in Hyderabad effortlessly. The low fee and transparency are big pluses. It’s been a great service so far!",
+    author_company: "Vietnam",
+    sequence: 551,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 571,
+    author_name: "Preeti Saxena",
+    review_description:
+      "Paying college fees with RedGirraffe is so simple now. I get rewards on my SBI card, which is nice. The service is reliable—love it!",
+    author_company: null,
+    sequence: 552,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 572,
+    author_name: "Luca Bianchi",
+    review_description:
+      "I use RentPay for my rent in Bangalore, and it’s fantastic. The credit period gives me some flexibility. Took a bit to set up, but now I’m happy!",
+    author_company: "Italy",
+    sequence: 553,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 573,
+    author_name: "Vijay Shankar",
+    review_description:
+      "RedGirraffe makes my school fees hassle-free. Payments are always on time, and the fee is low. I’ve recommended it to my friends!",
+    author_company: null,
+    sequence: 554,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 574,
+    author_name: "Ayesha Rahman",
+    review_description:
+      "Paying my rent in Pune with RentPay is so convenient. The low fee and reward system are fantastic. Great platform for foreigners like me!",
+    author_company: "Malaysia",
+    sequence: 555,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 575,
+    author_name: "Radhika Pillai",
+    review_description:
+      "I use RentPay for my society charges every month. It’s quick, and the cashback offers are great. The app is easy to use—happy user!",
+    author_company: null,
+    sequence: 556,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 576,
+    author_name: "Mateusz Kowalski",
+    review_description:
+      "RentPay simplifies my rent payments in Delhi. The process is straightforward, and I like the rewards. Took a day to verify, but now it’s flawless!",
+    author_company: "Poland",
+    sequence: 557,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 577,
+    author_name: "Hitesh Goyal",
+    review_description:
+      "Paying rent with RedGirraffe is a breeze every month. I earn points on my Kotak card, which is awesome. It’s a lifesaver for busy people!",
+    author_company: null,
+    sequence: 558,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 578,
+    author_name: "Zainab Omar",
+    review_description:
+      "I use RentPay for my college fees in Mumbai. The low fee and credit period are really helpful. The app could be a bit faster, though.",
+    author_company: "Oman",
+    sequence: 559,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 579,
+    author_name: "Anita Lobo",
+    review_description:
+      "RedGirraffe makes my society charges so easy to pay. Payments are quick, and I get rewards on my card. Highly recommend it to everyone!",
+    author_company: null,
+    sequence: 560,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 580,
+    author_name: "Alejandro Torres",
+    review_description:
+      "Paying my rent in Gurgaon with RentPay is awesome. The service is reliable, and I love the transparency. It’s been a smooth ride so far!",
+    author_company: "Colombia",
+    sequence: 561,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 581,
+    author_name: "Prateek Chawla",
+    review_description:
+      "I use RentPay for my kid’s school fees and rent. It’s hassle-free, and the cashback is a bonus. The app works well—great platform!",
+    author_company: null,
+    sequence: 562,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 582,
+    author_name: "Nour El Din",
+    review_description:
+      "RentPay helps me pay my rent in Noida effortlessly. The low fee and reward system are impressive. Took a bit to set up, but now I love it!",
+    author_company: "Tunisia",
+    sequence: 563,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 583,
+    author_name: "Sonia Mehra",
+    review_description:
+      "Paying college fees with RedGirraffe is so convenient. I get rewards on my Axis card every semester. No complaints—works perfectly!",
+    author_company: null,
+    sequence: 564,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 584,
+    author_name: "Kai Wong",
+    review_description:
+      "I use RentPay for my rent in Chennai, and it’s fantastic. The credit period gives me some breathing room. Highly recommend it to expats!",
+    author_company: "Hong Kong",
+    sequence: 565,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 585,
+    author_name: "Arnav Kapoor",
+    review_description:
+      "RedGirraffe simplifies my society charges perfectly. The app is straightforward, and payments are quick. I’ve been a happy user for months!",
+    author_company: null,
+    sequence: 566,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 586,
+    author_name: "Lara Ibrahim",
+    review_description:
+      "Paying my rent in Bangalore with RentPay is so easy. The low fee and transparency are big pluses. Great service for foreigners like me!",
+    author_company: "Syria",
+    sequence: 567,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 587,
+    author_name: "Kiran Bedi",
+    review_description:
+      "I use RentPay for my kid’s school fees every month. It’s reliable, and the cashback offers are nice. The service is flawless—love it!",
+    author_company: null,
+    sequence: 568,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 588,
+    author_name: "Hugo Martinez",
+    review_description:
+      "RentPay makes paying my rent in Hyderabad simple. The process is clear, and the fee is affordable. Took a day to verify, but now it’s great!",
+    author_company: "Chile",
+    sequence: 569,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 589,
+    author_name: "Devendra Yadav",
+    review_description:
+      "Paying rent with RedGirraffe is super convenient. I earn points on my ICICI card every month. It’s a small fee for such a great service!",
+    author_company: null,
+    sequence: 570,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 590,
+    author_name: "Safa Marwa",
+    review_description:
+      "I use RentPay for my college fees in Pune. The low fee and credit period are really helpful. The app could be more intuitive, though.",
+    author_company: "Morocco",
+    sequence: 571,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 591,
+    author_name: "Shilpa Rane",
+    review_description:
+      "RedGirraffe makes my society charges hassle-free. Payments are always on time, and I get rewards. Highly recommend it to everyone!",
+    author_company: null,
+    sequence: 572,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 592,
+    author_name: "Nikolai Ivanov",
+    review_description:
+      "Paying my rent in Delhi with RentPay is awesome. The service is reliable, and I love the rewards. Took a bit to set up, but now it’s perfect!",
+    author_company: "Russia",
+    sequence: 573,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 593,
+    author_name: "Mayank Sood",
+    review_description:
+      "I use RentPay for my kid’s school fees and rent. It’s quick, and the cashback offers are great. The app works well—happy user!",
+    author_company: null,
+    sequence: 574,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 594,
+    author_name: "Amal Farid",
+    review_description:
+      "RentPay helps me pay my rent in Mumbai effortlessly.\nThe low fee and transparency are impressive.\nIt’s been a smooth experience so far!",
+    author_company: "Algeria",
+    sequence: 575,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 595,
+    author_name: "Ritu Sharma",
+    review_description:
+      "Paying college fees with RedGirraffe is so simple now.\nI get rewards on my SBI card, which is nice.\nThe service is reliable—love it!",
+    author_company: null,
+    sequence: 576,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 596,
+    author_name: "Ethan Lim ",
+    review_description:
+      "I use RentPay for my rent in Bangalore, and it’s fantastic.\nThe credit period gives me some flexibility.\nTook a bit to set up, but now I’m happy!",
+    author_company: "Australia",
+    sequence: 577,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 597,
+    author_name: "Naveen Thomas",
+    review_description:
+      "RedGirraffe makes my society charges a breeze to pay.\nPayments are quick, and I earn points on my card.\nIt’s a small fee for such convenience!",
+    author_company: null,
+    sequence: 578,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 598,
+    author_name: "Rania Salem ",
+    review_description:
+      "Paying my rent in Noida with RentPay is so easy.\nThe low fee and reward system are fantastic.\nGreat platform for foreigners like me!",
+    author_company: "Jordan",
+    sequence: 579,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 599,
+    author_name: "Esha Gupta",
+    review_description:
+      "I use RentPay for my college fees every semester.\nIt’s seamless, and the cashback offers are awesome.\nNo complaints—works perfectly!",
+    author_company: null,
+    sequence: 580,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 600,
+    author_name: "Javier Ruiz",
+    review_description:
+      "RentPay simplifies my rent payments in Chennai.\nThe process is straightforward, and I like the rewards.\nTook a day to verify, but now it’s flawless!",
+    author_company: "Spain",
+    sequence: 581,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 601,
+    author_name: "Pankaj Kumar",
+    review_description:
+      "Paying school fees with RedGirraffe is so effortless.\nI get rewards on my Axis card, which is awesome.\nThe app works well—happy user!",
+    author_company: null,
+    sequence: 582,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 602,
+    author_name: "Mei Lin ",
+    review_description:
+      "I use RentPay for my rent in Hyderabad, and it’s great.\nThe low fee and credit period are really helpful.\nHighly recommend it to expats!",
+    author_company: "China",
+    sequence: 583,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 603,
+    author_name: "Lina Fernandes",
+    review_description:
+      "RedGirraffe makes my society charges hassle-free.\nPayments are always on time, and the fee is low.\nI’ve recommended it to my friends!",
+    author_company: null,
+    sequence: 584,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 604,
+    author_name: "Omar Khaled",
+    review_description:
+      "Paying my rent in Pune with RentPay is so convenient.\nThe service is reliable, and I love the transparency.\nIt’s been a smooth ride so far!",
+    author_company: "Egypt",
+    sequence: 585,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 605,
+    author_name: "Ravi Shankar",
+    review_description:
+      "I use RentPay for my kid’s school fees every month.\nIt’s hassle-free, and the cashback is a bonus.\nThe app works well—great platform!",
+    author_company: null,
+    sequence: 586,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 606,
+    author_name: "Anya Petrova (Ukraine)",
+    review_description:
+      "RentPay makes paying my college fees in Delhi easy.\nThe low fee and credit period are big wins for me.\nThe app could be more user-friendly, though.",
+    author_company: null,
+    sequence: 587,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 607,
+    author_name: "Smriti Irani",
+    review_description:
+      "Paying rent with RedGirraffe is super convenient.\nI earn points on my ICICI card every month.\nThe service is flawless—love it!",
+    author_company: null,
+    sequence: 588,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 608,
+    author_name: "Liam Chen",
+    review_description:
+      "I use RentPay for my rent in Mumbai, and it’s awesome.\nThe process is clear, and the fee is affordable.\nHighly recommend it to expats!",
+    author_company: "Singapore",
+    sequence: 589,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 609,
+    author_name: "Umesh Patel",
+    review_description:
+      "RedGirraffe simplifies my society charges perfectly.\nThe app is straightforward, and payments are quick.\nI’ve been a happy user for months!",
+    author_company: null,
+    sequence: 590,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 610,
+    author_name: "Salma Hassan",
+    review_description:
+      "Paying my rent in Bangalore with RentPay is so easy.\nThe low fee and transparency are big pluses.\nGreat service for foreigners like me!",
+    author_company: "Iraq",
+    sequence: 591,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 611,
+    author_name: "Jyotsna Das",
+    review_description:
+      "I use RentPay for my college fees every semester.\nIt’s reliable, and the cashback offers are nice.\nThe service is flawless—highly recommend!",
+    author_company: null,
+    sequence: 592,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 612,
+    author_name: "Rafael Lima",
+    review_description:
+      "RentPay helps me pay my rent in Hyderabad effortlessly.\nThe process is simple, and I like the rewards.\nTook a day to verify, but now it’s great!",
+    author_company: "Brazil",
+    sequence: 593,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 613,
+    author_name: "Kabir Malhotra",
+    review_description:
+      "Paying school fees with RedGirraffe is so simple now.\nI get rewards on my SBI card, which is awesome.\nThe app works well—happy user!",
+    author_company: null,
+    sequence: 594,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 614,
+    author_name: "Hala Yusuf",
+    review_description:
+      "I use RentPay for my rent in Gurgaon, and it’s fantastic.\nThe low fee and credit period help me manage my budget.\nGreat service for expats like me!",
+    author_company: "Qatar",
+    sequence: 595,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 615,
+    author_name: "Sangeeta Rao",
+    review_description:
+      "Paying society charges with RedGirraffe is so effortless now.\nThe app is easy to use, and I get rewards on my card.\nHighly recommend it to everyone!",
+    author_company: null,
+    sequence: 596,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 616,
+    author_name: "Felix Müller",
+    review_description:
+      "RentPay makes paying my rent in Noida super convenient.\nThe process is smooth, and I love the transparency.\nTook a bit to set up, but now it’s perfect!",
+    author_company: "Switzerland",
+    sequence: 597,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 617,
+    author_name: "Anirudh Sen",
+    review_description:
+      "I use RedGirraffe for my kid’s school fees every month.\nIt’s quick, and the cashback offers are a nice bonus.\nThe service is reliable—happy user!",
+    author_company: null,
+    sequence: 598,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 618,
+    author_name: "Mariam Baig ",
+    review_description:
+      "Paying my college fees in Chennai with RentPay is so easy.\nThe low fee and reward system are big wins for me.\nThe app could be a bit faster, though.",
+    author_company: "Pakistan",
+    sequence: 599,
+    author_designation: null,
+    author_image_url: null,
+  },
+
+  {
+    id: 619,
+    author_name: "Tanvi Shah",
+    review_description:
+      "RedGirraffe simplifies my rent payments perfectly.\nI earn points on my Kotak card every month.\nIt’s a small fee for such convenience!",
+    author_company: null,
+    sequence: 600,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 620,
+    author_name: "Sebastian Gomez ",
+    review_description:
+      "I use RentPay for my rent in Bangalore, and it’s awesome.\nThe credit period gives me some breathing room.\nHighly recommend it to others!",
+    author_company: "Colombia",
+    sequence: 601,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 621,
+    author_name: "Girish Nair",
+    review_description:
+      "Paying society charges with RedGirraffe is a breeze now.\nThe app is straightforward, and payments are quick.\nI’ve been a happy user for months!",
+    author_company: null,
+    sequence: 602,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 622,
+    author_name: "Alya Khan",
+    review_description:
+      "RentPay helps me pay my rent in Mumbai effortlessly.\nThe low fee and transparency are impressive.\nGreat platform for foreigners like me!",
+    author_company: "UAE",
+    sequence: 603,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 623,
+    author_name: "Shivani Thakur",
+    review_description:
+      "I use RentPay for my college fees every semester.\nIt’s seamless, and the cashback offers are awesome.\nNo complaints—works perfectly!",
+    author_company: null,
+    sequence: 604,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 624,
+    author_name: "Lukas Schmidt",
+    review_description:
+      "Paying my rent in Pune with RentPay is so simple.\nThe process is clear, and the fee is affordable.\nTook a day to verify, but now it’s great!",
+    author_company: "Germany",
+    sequence: 605,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 625,
+    author_name: "Adarsh Kumar",
+    review_description:
+      "RedGirraffe makes my school fees hassle-free.\nI get rewards on my Axis card, which is nice.\nThe app works well—love it!",
+    author_company: null,
+    sequence: 606,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 626,
+    author_name: "Elena Ortiz",
+    review_description:
+      "I use RentPay for my rent in Hyderabad, and it’s fantastic.\nThe low fee and reward system are really helpful.\nIt’s been a smooth experience so far!",
+    author_company: "Mexico",
+    sequence: 607,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 627,
+    author_name: "Monika Gupta",
+    review_description:
+      "Paying rent with RedGirraffe is super convenient.\nI earn points on my ICICI card every month.\nThe service is flawless—highly satisfied!",
+    author_company: null,
+    sequence: 608,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 628,
+    author_name: "Tariq Abbas ",
+    review_description:
+      "RentPay simplifies my rent payments in Delhi.\nThe credit period gives me flexibility with my finances.\nTook a bit to set up, but now I love it!",
+    author_company: "Kuwait",
+    sequence: 609,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 629,
+    author_name: "Suresh Menon",
+    review_description:
+      "I use RedGirraffe for my society charges and rent.\nPayments are quick, and the fee is reasonable.\nIt’s a great platform—happy user!",
+    author_company: null,
+    sequence: 610,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 630,
+    author_name: "Nina Petrović",
+    review_description:
+      "Paying my college fees in Kolkata with RentPay is so easy.\nThe low fee and cashback make it worthwhile.\nThe app could be more intuitive, though.",
+    author_company: "Serbia",
+    sequence: 611,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 631,
+    author_name: "Neelam Yadav",
+    review_description:
+      "RedGirraffe makes my school fees a breeze to pay.\nI get rewards on my SBI card every month.\nHighly recommend it to parents!",
+    author_company: null,
+    sequence: 612,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 632,
+    author_name: "Jameson Clark",
+    review_description:
+      "I use RentPay for my rent in Bangalore, and it’s awesome.\nThe process is straightforward, and I like the rewards.\nGreat service for expats like me!",
+    author_company: "Canada",
+    sequence: 613,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 633,
+    author_name: "Tushar Bose",
+    review_description:
+      "Paying society charges with RedGirraffe is so effortless.\nThe app is easy to use, and payments are quick.\nI’ve had no issues so far!",
+    author_company: null,
+    sequence: 614,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 634,
+    author_name: "Sofia Hassan",
+    review_description:
+      "RentPay helps me pay my rent in Mumbai effortlessly.\nThe low fee and transparency are big pluses.\nTook a day to verify, but now it’s flawless!",
+    author_company: "Turkey",
+    sequence: 615,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 635,
+    author_name: "Ranjana Singh",
+    review_description:
+      "I use RentPay for my college fees every semester.\nIt’s reliable, and the cashback offers are nice.\nThe service is great—love it!",
+    author_company: null,
+    sequence: 616,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 636,
+    author_name: "Diego Vargas",
+    review_description:
+      "Paying my rent in Pune with RentPay is so convenient.\nThe credit period gives me some flexibility.\nHighly recommend it to others!",
+    author_company: "Argentina",
+    sequence: 617,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 637,
+    author_name: "Vishal Chavan",
+    review_description:
+      "RedGirraffe simplifies my rent payments perfectly.\nI earn points on my Kotak card every month.\nIt’s a small fee for such convenience!",
+    author_company: null,
+    sequence: 618,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 638,
+    author_name: "Layla Ahmed",
+    review_description:
+      "I use RentPay for my rent in Noida, and it’s fantastic.\nThe low fee and reward system are impressive.\nGreat platform for foreigners like me!",
+    author_company: "Bahrain",
+    sequence: 619,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 639,
+    author_name: "Aarti Desai",
+    review_description:
+      "Paying school fees with RedGirraffe is so simple now.\nI get rewards on my Axis card, which is awesome.\nThe app works well—happy user!",
+    author_company: null,
+    sequence: 620,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 640,
+    author_name: "Andreas Papadopoulos",
+    review_description:
+      "RentPay makes paying my rent in Hyderabad easy.\nThe process is clear, and the fee is affordable.\nTook a bit to set up, but now it’s perfect!",
+    author_company: "Greece",
+    sequence: 621,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 641,
+    author_name: "Prashant Rao",
+    review_description:
+      "I use RedGirraffe for my society charges every month.\nPayments are quick, and the cashback is a bonus.\nHighly recommend it to everyone!",
+    author_company: null,
+    sequence: 622,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 642,
+    author_name: "Zoya Farooq",
+    review_description:
+      "Paying my college fees in Chennai with RentPay is so easy.\nThe low fee and credit period are really helpful.\nThe app could load faster, though.",
+    author_company: "Pakistan",
+    sequence: 623,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 643,
+    author_name: "Sarika Jain",
+    review_description:
+      "RedGirraffe makes my rent payments hassle-free.\nI earn points on my ICICI card every month.\nThe service is flawless—love it!",
+    author_company: null,
+    sequence: 624,
+    author_designation: null,
+    author_image_url: null,
+  },
+
+  {
+    id: 644,
+    author_name: "Mateo Ricci",
+    review_description:
+      "I use RentPay for my rent in Delhi, and it’s awesome.\nThe transparency and rewards are big wins for me.\nTook a day to verify, but now it’s great!",
+    author_company: "Italy",
+    sequence: 625,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 645,
+    author_name: "Michael Brown",
+    review_description:
+      "RentPay simplifies my rent payments in Bangalore.\nThe low fee and credit period are fantastic perks.\nIt’s been a smooth experience so far!",
+    author_company: "UK",
+    sequence: 626,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 646,
+    author_name: "Rima Das",
+    review_description:
+      "Paying my rent in Kolkata with RentPay is so convenient.\nI love earning rewards on my card every month.\nHighly recommend it to others!",
+    author_company: "Bangladesh",
+    sequence: 627,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 647,
+    author_name: "Deepa Kulkarni",
+    review_description:
+      "I use RedGirraffe for my society charges and rent.\nThe app is straightforward, and payments are quick.\nIt’s a great service—happy user!",
+    author_company: null,
+    sequence: 628,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 648,
+    author_name: "Victor Hugo",
+    review_description:
+      "RentPay helps me pay my rent in Mumbai effortlessly.\nThe process is simple, and I like the transparency.\nGreat platform for expats like me!",
+    author_company: "France",
+    sequence: 629,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 649,
+    author_name: "Rohit Sharma",
+    review_description:
+      "Paying college fees with RedGirraffe is so simple now.\nI get rewards on my SBI card, which is nice.\nThe service is reliable—love it!",
+    author_company: null,
+    sequence: 630,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 650,
+    author_name: "Amina Khalid",
+    review_description:
+      "I use RentPay for my rent in Pune, and it’s fantastic.\nThe low fee and reward system are really helpful.\nTook a bit to set up, but now it’s perfect!",
+    author_company: "Saudi Arabia",
+    sequence: 631,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 651,
+    author_name: "Sweta Pandey",
+    review_description:
+      "RedGirraffe makes my school fees hassle-free.\nPayments are always on time, and the fee is low.\nI’ve recommended it to my friends!",
+    author_company: null,
+    sequence: 632,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 652,
+    author_name: "Jonas Becker",
+    review_description:
+      "Paying my rent in Hyderabad with RentPay is so easy.\nThe credit period gives me some breathing room.\nHighly recommend it to expats!",
+    author_company: "Germany",
+    sequence: 633,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 653,
+    author_name: "Ajay Nair",
+    review_description:
+      "I use RentPay for my society charges every month.\nIt’s quick, and the cashback offers are great.\nThe app works well—happy user!",
+    author_company: null,
+    sequence: 634,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 654,
+    author_name: "Hina Saeed ",
+    review_description:
+      "RentPay simplifies my rent payments in Noida.\nThe low fee and transparency are impressive.\nTook a day to verify, but now it’s flawless!",
+    author_company: "Pakistan",
+    sequence: 635,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 655,
+    author_name: "Pallavi Suresh",
+    review_description:
+      "Paying rent with RedGirraffe is super convenient.\nI earn points on my Kotak card every month.\nThe service is great—love it!",
+    author_company: null,
+    sequence: 636,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 656,
+    author_name: "Santiago Morales",
+    review_description:
+      "I use RentPay for my rent in Bangalore, and it’s awesome.\nThe process is straightforward, and I like the rewards.\nGreat service for foreigners like me!",
+    author_company: "Chile",
+    sequence: 637,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 657,
+    author_name: "Sanjay Gupta",
+    review_description:
+      "RedGirraffe makes my college fees a breeze to pay.\nI get rewards on my Axis card every semester.\nHighly recommend it to students!",
+    author_company: null,
+    sequence: 638,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 658,
+    author_name: "Farah Ismail",
+    review_description:
+      "Paying my rent in Delhi with RentPay is so easy.\nThe low fee and credit period are big wins for me.\nThe app could be more user-friendly, though.",
+    author_company: "Somalia",
+    sequence: 639,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 659,
+    author_name: "Reena Kapoor",
+    review_description:
+      "I use RentPay for my society charges and rent.\nPayments are quick, and the fee is reasonable.\nThe service is flawless—happy user!",
+    author_company: null,
+    sequence: 640,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 660,
+    author_name: "Lucas Silva",
+    review_description:
+      "RentPay helps me pay my rent in Mumbai effortlessly.\nThe transparency and rewards are fantastic perks.\nTook a bit to set up, but now it’s perfect!",
+    author_company: "Brazil",
+    sequence: 641,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 661,
+    author_name: "Vinayak Patil",
+    review_description:
+      "Paying school fees with RedGirraffe is so simple now.\nI get rewards on my SBI card, which is awesome.\nIt’s a great platform—love it!",
+    author_company: null,
+    sequence: 642,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 662,
+    author_name: "Nada Salem",
+    review_description:
+      "I use RentPay for my rent in Pune, and it’s fantastic.\nThe low fee and reward system are really helpful.\nGreat service for foreigners like me!",
+    author_company: "Egypt",
+    sequence: 643,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 663,
+    author_name: "Nandini Roy",
+    review_description:
+      "RedGirraffe simplifies my rent payments perfectly.\nI earn points on my ICICI card every month.\nHighly recommend it to everyone!",
+    author_company: null,
+    sequence: 644,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 664,
+    author_name: "Oliver Jensen ",
+    review_description:
+      "Paying my rent in Hyderabad with RentPay is so convenient.\nThe process is clear, and the fee is affordable.\nTook a day to verify, but now it’s great!",
+    author_company: "Denmark",
+    sequence: 645,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 665,
+    author_name: "Kshitij Mehra",
+    review_description:
+      "I use RentPay for my society charges every month.\nIt’s quick, and the cashback offers are a bonus.\nThe app works well—happy user!",
+    author_company: null,
+    sequence: 646,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 666,
+    author_name: "Yara Haddad ",
+    review_description:
+      "RentPay makes paying my college fees in Chennai easy.\nThe low fee and credit period are impressive.\nThe app could load faster, though.",
+    author_company: "Lebanon",
+    sequence: 647,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 667,
+    author_name: "Anusha Reddy",
+    review_description:
+      "Paying rent with RedGirraffe is super convenient.\nI get rewards on my Kotak card every month.\nThe service is flawless—love it!",
+    author_company: null,
+    sequence: 648,
+    author_designation: null,
+    author_image_url: null,
+  },
+  {
+    id: 668,
+    author_name: "Pierre Dubois (France)",
+    review_description:
+      "I use RentPay for my rent in Bangalore, and it’s awesome.\nThe transparency and rewards are big wins for me.\nHighly recommend it to expats!",
+    author_company: "France",
+    sequence: 649,
+    author_designation: null,
+    author_image_url: null,
+  },
 ];
