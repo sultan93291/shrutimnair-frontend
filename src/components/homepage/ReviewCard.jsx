@@ -1,8 +1,6 @@
 import { useState } from "react";
-import Modal from "react-modal";
 
 const ReviewCard = ({ review }) => {
-  const [demoModalOpen, setdemoModalOpen] = useState(false);
   const [isFullReview, setisFullReview] = useState(false);
 
   return (

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <section>
       {/* This is the first div */}
-      <div className="bg-[#2D2D2D] pt-7 lg:pt-10 2xl:pt-[68px] px-5 lg:px-8 2xl:px-12 pb-[33px]">
+      <div className="bg-[#000] pt-7 lg:pt-10 2xl:pt-[68px] px-5 lg:px-8 2xl:px-12 pb-[33px]">
         <div className="grid lg:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-5 gap-5 4xl:gap-10">
           {/* This is the first div */}
           <div className="order-1">

@@ -1,6 +1,6 @@
 import Marquee from "react-fast-marquee";
 
-const ReactMarquee = ({ isIndividual, imgArr, gap = 400, speed = 100 }) => {
+const ReactMarquee = ({ isIndividual, imgArr,  speed = 100 }) => {
   return (
     <section>
       <div className="flex flex-col gap-y-8 md:gap-y-10 2xl:gap-y-14 3xl:gap-y-[100px] ">

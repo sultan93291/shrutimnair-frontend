@@ -1,7 +1,7 @@
 import ButtonAndArrow from "@/components/common/ButtonAndArrow";
 import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
-import heroVideo from "../../../assets/videos/hero_video.mp4";
+
 import {
   SetAcitveTab,
   SetActiveFeatureData,
@@ -83,6 +83,7 @@ const B2bTab = () => {
   const [isFullscreen, setIsFullscreen] = useState(false);
   const videoRef = useRef();
 
+  //  this function will handle vidoe  unmute
   const HandleUnmute = () => {
     if (videoRef.current) {
       videoRef.current.muted = false;
@@ -90,6 +91,7 @@ const B2bTab = () => {
     }
   };
 
+  //  this function will handle vidoe mute
   const HandleMute = () => {
     if (videoRef.current) {
       videoRef.current.muted = true;
@@ -97,6 +99,7 @@ const B2bTab = () => {
     }
   };
 
+  // this function will handle the full screen mode open
   const handleFullscreen = () => {
     const video = videoRef.current;
     if (!video) return;
@@ -116,6 +119,7 @@ const B2bTab = () => {
     }
   };
 
+  //  if the video is ended then it will close the video automatically
   useEffect(() => {
     const video = videoRef.current;
     if (!video) return;
@@ -168,9 +172,9 @@ const B2bTab = () => {
                 backgroundColor: `${
                   item.id === ActiveTabId ? item.tabColor : "#F3F3F3"
                 }`,
-                transition: "background-color 0.5s ease, color 0.5s ease", 
+                transition: "background-color 0.5s ease, color 0.5s ease",
               }}
-              className={`h-auto w-[160px] xl:w-[250px] 2xl:w-[300px] 3xl:w-[338px] rounded-[15px] xl:rounded-[31.1px] shadow-TabShadow flex flex-col gap-y-2 3xl:gap-y-[36.87px] items-center justify-center 2xl:py-[30px] 3xl:py-[67.8px] py-5 px-1   transition-colors duration-500`} 
+              className={`h-auto w-[160px] xl:w-[250px] 2xl:w-[300px] 3xl:w-[338px] rounded-[15px] xl:rounded-[31.1px] shadow-TabShadow flex flex-col gap-y-2 3xl:gap-y-[36.87px] items-center justify-center 2xl:py-[30px] 3xl:py-[67.8px] py-5 px-1   transition-colors duration-500`}
             >
               <h2
                 style={{
@@ -190,7 +194,7 @@ const B2bTab = () => {
                   dispatch(SetActiveFeatureData(item.tittle));
                   dispatch(setActivePricingTears(item.tittle));
                 }}
-                className=" mt-3 xl:mt-12 transition-opacity duration-300 hover:opacity-80" 
+                className=" mt-3 xl:mt-12 transition-opacity duration-300 hover:opacity-80"
               >
                 <ButtonAndArrow
                   isHidden={true}

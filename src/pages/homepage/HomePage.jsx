@@ -1,4 +1,6 @@
 import WhyPayRent from "@/components/homepage/WhyPayRent";
+
+// all logo imports 
 import airtel from "../../assets/images/bankingLogo/Airtel_Payments_Bank-OC7iVv4KE_brandlogos.net.svg";
 import america from "../../assets/images/bankingLogo/american-express-1.svg";
 import apple from "../../assets/images/bankingLogo/Apple_Pay-OCCmCxK1c_brandlogos.net.svg";
@@ -123,7 +125,6 @@ const HomePage = () => {
         <div className="mt-[20px] md:mt-[30px] xl:mt-[70px] 3xl:mt-[120px]">
           <WhatOurUserSays />
         </div>
-
         <div>
           <SwitchToSavings />
         </div>

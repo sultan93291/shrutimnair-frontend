@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Weekly from "./Weekly";
-import Monthly from "./Monthly";
-import Yearly from "./Yearly";
+
 
 const ServeyTab = () => {
   const [activeTab, setActiveTab] = useState("weekly");
@@ -15,7 +14,6 @@ const ServeyTab = () => {
               ? "text-[#FFF] text-[8.606px] bg-[#4E6151] rounded-[5.737px] font-normal leading-4"
               : "text-[#545454] text-[8.606px] bg-[#F0F7FF] rounded-[5.737px] font-normal leading-4"
           }`}
-          // onClick={() => setActiveTab("weekly")}
         >
           Weekly
         </button>
@@ -25,7 +23,6 @@ const ServeyTab = () => {
               ? " text-[#FFF] text-[8.606px] bg-[#4E6151] rounded-[5.737px] font-normal leading-4"
               : "text-[#545454] text-[8.606px] bg-[#F0F7FF] rounded-[5.737px] font-normal leading-4"
           }`}
-          // onClick={() => setActiveTab("monthly")}
         >
           Monthly
         </button>
@@ -35,7 +32,6 @@ const ServeyTab = () => {
               ? " text-[#FFF] text-[8.606px] bg-[#4E6151] rounded-[5.737px] font-normal leading-4"
               : "text-[#545454] text-[8.606px] bg-[#F0F7FF] rounded-[5.737px] font-normal leading-4"
           }`}
-          // onClick={() => setActiveTab("yearly")}
         >
           Yearly
         </button>

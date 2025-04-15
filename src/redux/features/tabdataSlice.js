@@ -1,7 +1,6 @@
-// src/store/userSlice.js
-
 import { createSlice } from "@reduxjs/toolkit";
 
+// this is the tab data slice from here mainly the pain point and solutions data will be provided . and this file will track which tab is active according to that interaction it will send the data in our view in real time .
 
 // Initial state for user data
 const initialState = {
@@ -428,6 +427,8 @@ const initialState = {
       ],
     },
   ],
+
+  //  this is the initial active data
   ActiveFeatureData: [
     {
       id: 1,

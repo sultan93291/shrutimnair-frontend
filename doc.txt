@@ -1,0 +1,39 @@
+redux_doc = """
+🧠 Redux Toolkit Setup (RTK)
+
+We’re using Redux Toolkit (RTK) to handle almost all dynamic data in this project. Everything related to Redux is organized inside:
+
+src/redux/
+
+🔧 Store
+
+- The main file is:  
+  src/redux/store.js
+- This is where all slices are combined.
+- It tracks and manages the global app state.
+
+✂️ Slices (Features)
+
+- You’ll find three slices under:  
+  src/redux/features/
+- Each slice handles a specific part of the state (like auth, posts, etc.).
+- They include their own state, reducers, and actions.
+
+🛠️ How It Works
+
+useSelector  
+Used to read data from the Redux store in any component.
+
+Example:
+
+// this one is for extracting data from RTK
+const someData = useSelector((state) => state.sliceName.someData);
+
+useDispatch  
+Used to send actions (like fetching or updating data).
+
+Example:
+
+// this one is for sending query to RTK
+const dispatch = useDispatch();
+dispatch(someAction());

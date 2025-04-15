@@ -212,14 +212,14 @@ const CommonHeroBanner = () => {
           <div className="mt-6 3xl:mt-12 flex flex-col gap-y-2 xl:gap-y-3 ">
             <div
               ref={gsapContainerRef}
-              className="gsap-container text-[32px] md:text-[40px] 2xl:text-[50px] 3xl:text-[60px] 4xl:text-[80px] font-extrabold 3xl:leading-[80px] 4xl:leading-[102px] text-[#F2DFD7]"
+              className="gsap-container text-[32px] md:text-[40px] 2xl:text-[56px] 3xl:text-[60px] 4xl:text-[80px] font-extrabold 3xl:leading-[80px] 4xl:leading-[102px] text-[#F2DFD7]"
             >
               <div className="line">
                 <h1>
                   {isBusiness ? "SaaS That" : "All"}
                   <span className="text-[#E8C547] ">
                     {" "}
-                    {!isBusiness && "Payments"}
+                    {!isBusiness && "Payments,"}
                   </span>
                   {!isBusiness && " One"}
                 </h1>
@@ -235,7 +235,7 @@ const CommonHeroBanner = () => {
 
             <div ref={subtitleRef}>
               <div className="line">
-                <h2 className="text-[#F2DFD7] text-lg  xl:max-w-[300px] 2xl:w-[550px] 3xl:max-w-[733px] md:text-xl font-normal leading-8">
+                <h2 className="text-[#F2DFD7] text-lg  xl:max-w-[300px] 2xl:w-[700px 3xl:max-w-[733px] md:text-xl font-normal leading-8">
                   {isBusiness
                     ? "Streamline leases, ESG, workflows, payments, and more"
                     : "Rent, Fees, Society Charges + Rs 3,000/Month in CASH Points"}
@@ -250,7 +250,7 @@ const CommonHeroBanner = () => {
           </button>
         </div>
         {/* Right Side */}
-        <div className="flex-1 relative xl:px-5 2xl:px-0 w-full">
+        <div className="flex-1 relative xl:px-5 4xl:px-0 w-full">
           <motion.figure
             ref={divRef}
             animate={{

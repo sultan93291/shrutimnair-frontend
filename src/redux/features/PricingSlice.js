@@ -1,6 +1,6 @@
-// src/store/userSlice.js
-
 import { createSlice } from "@reduxjs/toolkit";
+
+// this is the pricing slice data . from we will the pricing details accroding to the active tab . if lease core is active we will show lease core data if ledger hub then we will show the ledger hub data . 
 
 // Initial state for user data
 const initialState = {
@@ -259,6 +259,9 @@ const initialState = {
       ],
     },
   ],
+
+  //  this is the initial pricing data
+
   ActivePricingTier: {
     identifier: "Lease-Core",
     HighlightTittle: "Lease-Core",
@@ -323,6 +326,8 @@ const priceSlice = createSlice({
   name: "priceSlice",
   initialState,
   reducers: {
+    //  in here from tab we will get the active tab name in  our action.payload then we will serach it on our price data . which one will match the criteria we make that one as a active pricing data .
+
     setActivePricingTears: (state, action) => {
       const matchedPrice = state.PriceData.find(
         price => price.identifier === action.payload

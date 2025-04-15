@@ -1,6 +1,5 @@
 import ButtonAndArrow from "../common/ButtonAndArrow";
 import {
-  WhyPaySvg,
   CashUp,
   CashHome,
   CashCalculation,
@@ -11,7 +10,6 @@ import {
   Setting,
   Dashboard,
   Gift,
-  Claim,
   Security,
   Caluculation,
   Privacy,

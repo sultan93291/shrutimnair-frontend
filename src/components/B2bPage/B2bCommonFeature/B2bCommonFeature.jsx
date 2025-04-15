@@ -10,12 +10,13 @@ import {
   CostCutting,
   Energy,
   Donation,
-  VerifiedCash,
   Box,
   DollarSetting,
   Certified,
 } from "@/components/svg-container/SvgContainer";
 import React from "react";
+
+//  it's a common component in here your all pain points and solutions data will came . and in view it show perfectly . 
 
 const B2bCommonFeature = ({
   BgColor = "",
@@ -44,7 +45,6 @@ const B2bCommonFeature = ({
     DollarSetting,
   };
 
-  console.log(SvgColor);
 
   return (
     <div className="w-full px-3 xl:px-[20px] 4xl:px-[56px] h-full ">
