@@ -11,7 +11,7 @@ const B2bPrice = () => {
   );
 
   return (
-    <div className="w-full px-4 xl:px-[56px] h-full ">
+    <div className="w-full px-4 xl:px-[20px] 4xl:px-[56px] h-full ">
       <div className="w-full h-auto bg-white shadow-[0px_8px_32px_2px_rgba(0,0,0,0.25)] rounded-[20px] xl:rounded-[80px] flex flex-col gap-y-6 xl:gap-y-12 relative items-center justify-center py-[40px] 2xl:py-[120px] ">
         {Activetab === "Pay-Pulse" ? (
           <div className="flex flex-col gap-y-3 px-5 2xl:flex-row 2xl:gap-x-[136px] ">

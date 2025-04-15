@@ -47,7 +47,7 @@ const B2bCommonFeature = ({
   console.log(SvgColor);
 
   return (
-    <div className="w-full px-3 xl:px-[56px] h-full ">
+    <div className="w-full px-3 xl:px-[20px] 4xl:px-[56px] h-full ">
       <div
         style={{
           backgroundColor: BgColor,
