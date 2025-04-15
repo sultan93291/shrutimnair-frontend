@@ -1,4 +1,7 @@
 import React from "react";
+import { useSelector } from "react-redux";
+
+// all logo imports
 import seven from "../../assets/images/brandLogo/7-eleven-logo-1.svg";
 import abercrombie from "../../assets/images/brandLogo/abercrombie-and-fitch.svg";
 import accor from "../../assets/images/brandLogo/accor-3.svg";
@@ -44,7 +47,6 @@ import shake from "../../assets/images/brandLogo/Shake_Shack-OrumyxgcE_brandlogo
 import servicemaster from "../../assets/images/brandLogo/servicemaster-2.svg";
 import remax from "../../assets/images/brandLogo/remax.svg";
 import rangerover from "../../assets/images/brandLogo/range-rover-2.svg";
-import rangerover2 from "../../assets/images/brandLogo/range-rover-2 (1).svg";
 import puma from "../../assets/images/brandLogo/puma-ag.svg";
 import pizza from "../../assets/images/brandLogo/pizza-hut.svg";
 import papa from "../../assets/images/brandLogo/papa-john-s-pizza-1.svg";
@@ -54,23 +56,13 @@ import nike from "../../assets/images/brandLogo/nike.svg";
 import newbalence from "../../assets/images/brandLogo/new-balance-2.svg";
 import minuteman from "../../assets/images/brandLogo/minuteman-press.svg";
 import mcdonalds from "../../assets/images/brandLogo/mcdonalds-7.svg";
-
 import CommonHeroBanner from "../../components/common/CommonHeroBanner";
 import ReactMarquee from "@/components/common/ReactMarquee";
 import SwitchToSavings from "@/components/common/SwitchToSavings";
-import { useSelector } from "react-redux";
 import B2bTab from "@/components/B2bPage/B2bTab/B2bTab";
 import B2bPrice from "@/components/B2bPage/B2bPrice/B2bPrice";
 import B2bCommonFeature from "@/components/B2bPage/B2bCommonFeature/B2bCommonFeature";
-import {
-  Confused,
-  DollarBag,
-  Infilation,
-  MoneyCalculation,
-  Pricingmeter,
-  TrashBin,
-  Warning,
-} from "@/components/svg-container/SvgContainer";
+
 
 const B2Bpage = () => {
   const logosGroupOne = [
